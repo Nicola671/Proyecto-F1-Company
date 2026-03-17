@@ -1,0 +1,204 @@
+{
+  "quotes": {
+    "verstappen_max": {
+      "victory": ["Simplemente hicimos un trabajo perfecto hoy. Sin discusión.", "El auto estuvo increíble, pero la diferencia la hice yo."],
+      "defeat": ["No teníamos ritmo, punto. No voy a buscar excusas.", "Frustrante, pero así son las carreras. La próxima la ganamos."],
+      "crash": ["Fue un incidente de carrera. El otro cerró la puerta, yo no iba a frenar.", "Son cosas que pasan cuando corrés al límite. No me arrepiento."],
+      "teammate_conflict": ["Yo voy a hacer lo mejor para el equipo, pero no voy a regalar posiciones.", "Si quiere ganarme, que sea más rápido. Así de simple."],
+      "rain": ["Me encanta la lluvia. Ahí es donde se separan los pilotos de verdad.", "En mojado no hay electrónica que te salve, solo talento puro."],
+      "bad_quali": ["Mala clasificación, pero mañana es otra historia. Ya lo verán.", "Pasaron cosas, no quiero entrar en detalles. Mañana ataco."],
+      "championship": ["No pienso en el campeonato. Gano cada carrera y los puntos vienen solos.", "Estoy tranquilo. Si el auto está bien, nadie me gana."],
+      "retirement": ["¿Retirarme? Cuando deje de divertirme. Todavía me divierto mucho.","No necesito la F1 más de lo que la F1 me necesita a mí."]
+    },
+    "norris_lando": {
+      "victory": ["¡DALE! ¡Al fin! Todo el equipo lo merece. Qué día increíble.", "No voy a mentir, casi se me cae una lágrima en la última vuelta."],
+      "defeat": ["Bueno, al menos el kebab post-carrera va a ser bueno.", "Duro, pero así aprendo. McLaren y yo vamos a volver más fuertes."],
+      "crash": ["Ups. Eso no estaba en el plan. Mi ingeniero no me habla.", "Vi un hueco, fui por él... y el hueco desapareció. Mala decisión mía."],
+      "teammate_conflict": ["Oscar y yo estamos bien. Los medios exageran todo, como siempre.", "Competimos fuerte pero nos respetamos. Después nos reímos juntos."],
+      "rain": ["Mi visibilidad era cero. Básicamente adiviné cada curva.", "La lluvia me estresa, pero hoy me salió bien. Puro instinto."],
+      "bad_quali": ["Horrible. No sé qué pasó, el auto se sentía como un barco.", "Voy a ver los datos y llorar un poco. Mañana será mejor."],
+      "championship": ["¿Yo peleando un campeonato? El Lando de hace dos años no lo creería.", "Cada punto cuenta, pero trato de no obsesionarme. Bueno, un poco sí."],
+      "retirement": ["Estoy lejísimos de retirarme. Tengo mucho que demostrar todavía.", "¿Retirarme? Recién estoy empezando a ser rápido de verdad."]
+    },
+    "leclerc_charles": {
+      "victory": ["¡SÍÍÍ! ¡Para el equipo, para los tifosi, para todos!", "Soñé con esto desde niño. Cada victoria la siento como la primera."],
+      "defeat": ["No fui lo suficientemente bueno hoy. Punto. Tengo que mejorar.", "Me duele, no voy a mentir. Pero esta frustración es combustible."],
+      "crash": ["Error mío. No hay excusas. Le pido disculpas al equipo.", "A veces cuando buscás el límite, lo cruzás. Hoy lo crucé."],
+      "teammate_conflict": ["Respeto a mi compañero, pero en pista cada uno corre por sí mismo.", "Hay tensión, sí. Pero eso es F1. Lo importante es que el equipo gane."],
+      "rain": ["La lluvia en Mónaco es un ballet sobre hielo. Amo cada segundo.", "Condiciones difíciles, pero ahí es donde podés hacer la diferencia."],
+      "bad_quali": ["No estoy satisfecho. Había más por sacar y no lo logré.", "Siento que le fallé al equipo hoy. Mañana lo compenso en carrera."],
+      "championship": ["Ferrari y el campeonato... es el sueño de mi vida. Voy a darlo todo.", "Cada vez estamos más cerca. No voy a parar hasta lograrlo."],
+      "retirement": ["Retirarme de Ferrari sin un campeonato sería un fracaso. No va a pasar.", "Todavía tengo fuego. El día que no lo sienta, ahí paro."]
+    },
+    "hamilton_lewis": {
+      "victory": ["Increíble. Este equipo me sigue sorprendiendo. Juntos somos imparables.", "Para todos los que dudaron, para todos los que me apoyaron. Esto es para ustedes."],
+      "defeat": ["Hoy no fue nuestro día, pero ya aprendimos más de lo que imagina la gente.", "Los obstáculos son oportunidades disfrazadas. Volveremos más fuertes."],
+      "crash": ["Lo importante es que estoy bien. El auto se puede reparar.", "Son momentos que te recuerdan que este deporte es peligroso. Hay que ser agradecido."],
+      "teammate_conflict": ["Siempre trato de mantener la armonía. El equipo es más grande que cualquier individuo.", "He tenido rivalidades intensas antes. Lo manejo con respeto y profesionalismo."],
+      "rain": ["La lluvia es mi terreno. Silverstone 2008 me enseñó que la lluvia puede ser tu aliada.", "En mojado todo se iguala. Es puro instinto y experiencia."],
+      "bad_quali": ["Mala clasificación, pero las carreras se ganan los domingos. Eso ya lo viví.", "No estoy preocupado. Tengo experiencia en remontar. Ya lo verán mañana."],
+      "championship": ["Ocho campeonatos. Eso es lo que me motiva cada mañana.", "Cada título tiene un sabor diferente. El hambre nunca se va."],
+      "retirement": ["Cuando sienta que ya no tengo nada que aportar, lo sabré.", "He pensado en el retiro, pero la pasión por ganar sigue ardiendo."]
+    },
+    "piastri_oscar": {
+      "victory": ["Muy contento. El equipo trabajó perfecto y yo hice mi parte.", "Una buena carrera. Limpia, eficiente. Así me gusta."],
+      "defeat": ["No fue ideal, pero aprendimos cosas útiles para la próxima.", "Hay que analizar los datos fríamente. Las emociones no sirven de nada."],
+      "crash": ["Error de cálculo de mi parte. Lo analizaré con calma.", "Pasó rápido. Un momento estaba ahí, al siguiente en la grava."],
+      "teammate_conflict": ["Lando y yo competimos fuerte. Eso hace mejor al equipo.", "No tengo problema con mi compañero. En pista somos rivales, fuera, colegas."],
+      "rain": ["La lluvia complica todo, pero me adapto rápido. Los datos ayudan.", "Interesante carrera. En mojado todo puede pasar, hay que estar atento."],
+      "bad_quali": ["No es lo que esperábamos. Hay que revisar por qué perdimos ese tiempo.", "Mala vuelta en el momento equivocado. Simple como eso."],
+      "championship": ["Si estoy en posición de pelear, voy a pelear. Sin drama.", "Un paso a la vez. No me emociono antes de tiempo."],
+      "retirement": ["Acabo de llegar. Pregúntenme eso en 15 años.", "Tengo mucho por demostrar todavía. Esto recién empieza."]
+    },
+    "sainz_carlos": {
+      "victory": ["¡Vamos! ¡Para España, para el equipo, para mi familia!", "Cada victoria me demuestra que pertenezco aquí arriba. Qué sensación."],
+      "defeat": ["Frustrante, pero sacamos puntos importantes. A seguir sumando.", "El auto no estaba donde queríamos, pero maximicé lo que teníamos."],
+      "crash": ["Fue un toque desafortunado. Estas cosas pasan en la primera vuelta.", "No estoy contento, pero a veces la carrera te pone en situaciones imposibles."],
+      "teammate_conflict": ["Siempre fui un compañero de equipo justo. Espero lo mismo.", "Hay competencia interna, claro. Pero nunca pasé de la raya."],
+      "rain": ["La lluvia me gusta. Iguala las cosas y ahí brilla la habilidad.", "Condiciones mixtas, mi especialidad. Sé cuándo arriesgar y cuándo no."],
+      "bad_quali": ["No refleja nuestro potencial real. Mañana será diferente.", "Algo no funcionó en la vuelta clave. Lo vamos a encontrar."],
+      "championship": ["Vengo a ganar. No me conformo con ser 'el otro piloto'.", "El campeonato es largo. La consistencia gana títulos, no las heroicidades."],
+      "retirement": ["Todavía tengo años de buen rendimiento por delante.", "No pienso en eso. Mi cabeza está en la próxima carrera."]
+    },
+    "russell_george": {
+      "victory": ["Resultado fantástico para todo el equipo. El trabajo duro da frutos.", "Mercedes siempre vuelve. Esta victoria es prueba de eso."],
+      "defeat": ["No es aceptable. Tenemos que ser autocríticos y trabajar más duro.", "El auto tenía para más. Tengo que extraer ese rendimiento."],
+      "crash": ["Un error que no debería haber cometido a este nivel. Inaceptable.", "Lamento profundamente haberle costado puntos al equipo."],
+      "teammate_conflict": ["Yo soy el líder de este equipo y mis resultados lo demuestran.", "Competencia interna es saludable. Nos hace a ambos más rápidos."],
+      "rain": ["En la lluvia cada decisión cuenta triple. Hoy tomé las correctas.", "El grip cambiaba vuelta a vuelta. Fue un ejercicio de concentración."],
+      "bad_quali": ["Inaceptable. El equipo merece más y yo me exijo más.", "Voy a revisar cada dato hasta entender qué pasó. No me voy a dormir sin saberlo."],
+      "championship": ["Mercedes ha ganado 8 campeonatos de constructores. Queremos el noveno.", "Estoy listo para pelear. Llevo preparándome para esto toda mi vida."],
+      "retirement": ["¿Retirarme? Tengo 27 años. Tengo al menos una década más.", "Mi ambición es ganar múltiples campeonatos. Ni cerca de parar."]
+    },
+    "antonelli_kimi": {
+      "victory": ["¡No lo puedo creer! ¡Mi primera victoria! ¡Gracias Mercedes!", "Es un sueño hecho realidad. Desde karting soñaba con este momento."],
+      "defeat": ["Estoy aprendiendo cada carrera. Cada experiencia suma.", "No fue mi mejor día pero el aprendizaje fue enorme."],
+      "crash": ["Todavía estoy aprendiendo los límites del auto. Pido disculpas al equipo.", "Error de novato, lo sé. Pero mejor equivocarse ahora que después."],
+      "teammate_conflict": ["George es un referente increíble. Aprendo mucho de él.", "No hay conflicto. Él es la referencia y yo estoy aquí para aprender."],
+      "rain": ["La lluvia me recuerda al karting. Puro instinto, sin ayudas.", "Estas condiciones son nuevas para mí en F1, pero me encantan."],
+      "bad_quali": ["Necesito más vueltas, más experiencia. Es parte del proceso.", "No estoy preocupado. Sé que el ritmo está, falta pulirlo."],
+      "championship": ["¿Campeonato? Estoy enfocado en mejorar cada fin de semana.", "Algún día. Primero tengo que demostrar que merezco estar aquí."],
+      "retirement": ["¡Recién empecé! Tengo 18 años, pregúntenme en 2045.", "Mi carrera recién comienza. Lo mejor está por venir."]
+    },
+    "alonso_fernando": {
+      "victory": ["El talento no tiene fecha de vencimiento. Pregúntenle a los que dudaron.", "42 años y todavía les gano. Imaginen si tuviera el mejor auto."],
+      "defeat": ["Con un auto competitivo gano esta carrera. Lo saben todos.", "Hice lo máximo posible con lo que teníamos. Necesitamos más rendimiento."],
+      "crash": ["Fue un incidente 100% culpa del otro. Pero como siempre, me culparán a mí.", "A mi edad ya sé por qué pasó. El otro no tiene visión periférica."],
+      "teammate_conflict": ["Tuve compañeros campeones del mundo. Sé cómo manejar estas situaciones.", "Si mi compañero quiere ganarme, que madrugue más que yo. Difícil."],
+      "rain": ["La lluvia es de los pilotos inteligentes, no solo de los rápidos.", "30 años corriendo en lluvia. A esta altura, es como conducir en seco para mí."],
+      "bad_quali": ["La clasificación no refleja lo que puedo hacer en carrera. Nunca lo hizo.", "GP2 engine... digo, a veces el auto no da para más."],
+      "championship": ["He perdido campeonatos que merecía ganar. Si tengo otra oportunidad, no la desperdiciaré.", "Dos campeonatos, pero debería tener cinco. Las circunstancias..."],
+      "retirement": ["Me retiro cuando yo quiera, no cuando los demás opinen.", "Cada año que sigo corriendo es una victoria contra el tiempo."]
+    },
+    "stroll_lance": {
+      "victory": ["Un resultado increíble para el equipo. Estoy muy orgulloso.", "Mucha gente subestima lo que puedo hacer. Hoy lo demostré."],
+      "defeat": ["Fue una carrera complicada. El auto no estaba donde queríamos.", "Hay cosas por mejorar. Vamos a trabajar duro esta semana."],
+      "crash": ["A veces las cosas no salen. Es parte del deporte.", "Un momento desafortunado. Volveremos más fuertes."],
+      "teammate_conflict": ["Respeto mucho a Fernando. Es una leyenda. Aprendo de él cada día.", "No hay conflicto. Cada uno hace su trabajo lo mejor que puede."],
+      "rain": ["La lluvia me gusta, se puede hacer algo especial.", "Condiciones difíciles, pero el equipo me dio un gran auto."],
+      "bad_quali": ["No ideal, pero mañana en carrera puedo remontar.", "Necesitamos entender qué pasó. Los datos nos lo dirán."],
+      "championship": ["Si tenemos el auto, podemos luchar. Aston Martin tiene grandes ambiciones.", "El proyecto Aston Martin es a largo plazo. Estamos construyendo algo grande."],
+      "retirement": ["Tengo 26 años. Estoy en mi mejor momento.", "Mi carrera en F1 recién está despegando."]
+    },
+    "gasly_pierre": {
+      "victory": ["¡Esto sí! ¡Vamos Alpine! ¡Nunca dejé de creer!", "Después de todo lo que pasé, este equipo me devolvió la sonrisa."],
+      "defeat": ["Sacamos lo máximo de lo que teníamos. Necesitamos más del auto.", "Frustrante, pero el equipo está progresando. Lo veo cada semana."],
+      "crash": ["Un toque desafortunado. Estábamos en buena posición antes de eso.", "Son cosas de carrera. Lo importante es extraer lecciones."],
+      "teammate_conflict": ["Tuve situaciones complicadas con compañeros antes. Ya aprendí a manejarlo.", "Lo hablamos internamente. No necesitamos drama público."],
+      "rain": ["Monza 2020 bajo lluvia. Sabemos lo que puedo hacer en estas condiciones.", "La lluvia esconde las diferencias entre los autos. Ahí brillan los pilotos."],
+      "bad_quali": ["No fue la vuelta que quería. Había más tiempo por sacar.", "A veces el tráfico arruina tu mejor vuelta. Muy frustrante."],
+      "championship": ["Alpine y yo estamos construyendo algo especial. El campeonato es el objetivo.", "Si Red Bull pudo pasar de mitad de tabla a ganar todo, ¿por qué no nosotros?"],
+      "retirement": ["Tengo 29 años y mi mejor F1 está por venir.", "No me voy hasta haber ganado con este equipo algo grande."]
+    },
+    "doohan_jack": {
+      "victory": ["¡Increíble! ¡El equipo y yo trabajamos tan duro para esto!", "Mi papá estaría orgulloso. Los Doohan siguen compitiendo."],
+      "defeat": ["Todavía estoy aprendiendo la F1. Cada carrera es una lección.", "No es el resultado que quería, pero estoy mejorando cada fin de semana."],
+      "crash": ["Error mío. Todavía estoy buscando los límites del auto.", "La F1 no perdona. En F2 tenía más margen. Aquí es al milímetro."],
+      "teammate_conflict": ["Pierre tiene mucha experiencia. Intento aprender de él, no pelear.", "Nos llevamos bien. Él sabe que yo estoy aquí para crecer."],
+      "rain": ["Crecer en Australia me hizo un piloto adaptable. La lluvia no me asusta.", "Condiciones complicadas, pero intenté ser valiente."],
+      "bad_quali": ["La F1 tiene una curva de aprendizaje brutal. Estoy en esa curva.", "Necesito más confianza con el auto en clasificación. Viene."],
+      "championship": ["Mi objetivo ahora es ser consistente y ganarme el asiento.", "Campeonato no, todavía. Pero quiero demostrar que merezco estar aquí."],
+      "retirement": ["Acabo de llegar. Dame unos años antes de preguntarme eso.", "Mi carrera recién empieza. Ojalá dure 15 años más."]
+    },
+    "ocon_esteban": {
+      "victory": ["¡Vamos! ¡Para Francia, para el equipo, para todos los que creyeron!", "Vengo de una familia humilde. Cada victoria es un mensaje: todo es posible."],
+      "defeat": ["No fue nuestro día, pero sumamos datos para mejorar.", "El auto tenía limitaciones que no pudimos resolver este fin de semana."],
+      "crash": ["Un incidente que se pudo evitar si el otro me dejaba espacio.", "A veces la primera vuelta es una lotería. Hoy no me tocó."],
+      "teammate_conflict": ["He tenido situaciones complicadas con compañeros. Sé lo que es.", "Lo que pase dentro del equipo se resuelve dentro del equipo."],
+      "rain": ["La lluvia iguala todo. Me gusta cuando las condiciones son caóticas.", "Bajo la lluvia la estrategia importa más que la potencia."],
+      "bad_quali": ["No refleja nuestro ritmo de carrera. Somos mejores los domingos.", "Algo no cuadró en Q3. Vamos a analizarlo."],
+      "championship": ["Ganar el campeonato sería la mayor historia de superación en F1.", "Cada punto es una batalla. Y yo soy un guerrero."],
+      "retirement": ["Tengo 28 años. Estoy en mi prime. Ni pensarlo.", "Me retiro cuando haya logrado lo que vine a buscar."]
+    },
+    "bearman_oliver": {
+      "victory": ["¡Oh Dios mío! ¡Mi primera victoria! ¡No me lo creo!", "Todo el trabajo en la academia valió la pena. ¡Vamos Haas!"],
+      "defeat": ["Mucho que aprender aún. Pero cada carrera me hace más fuerte.", "No fue ideal pero terminé. En mi segundo año, eso vale mucho."],
+      "crash": ["Todavía estoy calibrando los límites. La F1 es mucho más rápida que la F2.", "Lo siento mucho por el equipo. Voy a aprender de este error."],
+      "teammate_conflict": ["Esteban es muy experimentado. Escucho sus consejos y aprendo.", "No tengo ego para conflictos. Solo quiero ser más rápido."],
+      "rain": ["La lluvia me pone nervioso, no voy a mentir. Pero también emocionado.", "Poca experiencia en F1 bajo lluvia, pero en karting era mi fuerte."],
+      "bad_quali": ["Todavía estoy encontrando los límites de este auto en clasificación.", "Es frustrante, pero proceso. Un rookie necesita tiempo."],
+      "championship": ["El campeonato no es mi objetivo ahora. Quiero sumar puntos consistentes.", "Si sigo mejorando así, quién sabe en unos años..."],
+      "retirement": ["¡Tengo 19 años! Acabo de empezar mi sueño.", "Ni en broma. Esto es lo que quiero hacer toda mi vida."]
+    },
+    "hulkenberg_nico": {
+      "victory": ["¡Al fin un podio! ¡Espera, no, una VICTORIA! ¡Supera eso, internet!", "Después de tantos años sin podio, los memes van a tener que actualizarse."],
+      "defeat": ["Cuarto otra vez. Mi posición favorita, aparentemente.", "Sacamos lo que pudimos. El ritmo estaba, pero faltó algo más."],
+      "crash": ["Un incidente evitable. Mala suerte en el momento equivocado.", "Después de tantos años en F1, estos errores me molestan especialmente."],
+      "teammate_conflict": ["He tenido más compañeros que nadie. Sé cómo manejarlo.", "La competencia interna es buena si se canaliza bien."],
+      "rain": ["Spa 2010, salir de pole bajo diluvio. Eso define mi relación con la lluvia.", "La lluvia es mi amiga. Ahí todos vuelven a empezar de cero."],
+      "bad_quali": ["No es lo que esperaba. Pero las carreras se ganan el domingo.", "El auto tenía potencial para más. No logré sacarlo."],
+      "championship": ["37 años y peleando un campeonato. La paciencia paga.", "Si Alonso puede a los 43, yo puedo a los 37. Fácil."],
+      "retirement": ["Todavía rindo. Mientras rinda, no me voy.", "El día que un joven me gane consistentemente, lo pensaré. Todavía no pasa."]
+    },
+    "bortoleto_gabriel": {
+      "victory": ["¡Brasil! ¡Para Brasil! ¡Senna estaría orgulloso!", "Campeón de F2 y ahora ganando en F1. El sueño brasileño."],
+      "defeat": ["Estoy aprendiendo rápido. Cada carrera es una universidad.", "No fue el resultado pero el equipo me da confianza. Vamos a seguir."],
+      "crash": ["Error de novato. Lo reconozco y lo corrijo para la próxima.", "La F1 no da segundas oportunidades. Tengo que ser más cuidadoso."],
+      "teammate_conflict": ["Nico tiene mucha experiencia. Lo respeto. Pero quiero ganarle.", "Sana competencia. Él me hace mejor piloto cada fin de semana."],
+      "rain": ["Interlagos bajo lluvia es mi terreno. Crecí con esas condiciones.", "La lluvia me gusta. Te obliga a confiar en tu instinto."],
+      "bad_quali": ["Todavía estoy aprendiendo a sacar una vuelta perfecta en F1.", "No fue la vuelta que quería, pero en carrera puedo compensar."],
+      "championship": ["Mi objetivo es mejorar cada carrera. El campeonato vendrá con el tiempo.", "Brasil necesita un nuevo campeón. Quiero ser yo, pero con paciencia."],
+      "retirement": ["Tengo 20 años. Esto recién empieza para mí.", "Mi sueño era llegar a la F1. Ahora mi sueño es ganar en la F1."]
+    },
+    "tsunoda_yuki": {
+      "victory": ["¡YEEEES! ¡Toma esa! ¡Lo logramos, equipo!", "¡Japón está mirando y hoy les dimos un show!"],
+      "defeat": ["¡Ugh! Teníamos más para dar. Es frustrante, muy frustrante.", "No estoy contento. El equipo tampoco. Tenemos que mejorar ya."],
+      "crash": ["Fue... fue estúpido. Lo sé. No debería haber ido por ahí.", "La radio va a estar divertida cuando la publiquen. Perdón, equipo."],
+      "teammate_conflict": ["Yo voy a correr mi carrera. Si mi compañero tiene problema, que hable.", "No soy fácil de tratar, lo sé. Pero es pasión, no maldad."],
+      "rain": ["La lluvia en Suzuka es mágica. Crecer ahí te enseña a respetar el agua.", "Me gusta la lluvia. Puedo ser más agresivo y arriesgar."],
+      "bad_quali": ["¡NO! ¡Bloqueo en la última curva! ¡Me quiero morir!", "Perdón por lo que dije en la radio. Estaba frustrado. Muy frustrado."],
+      "championship": ["Quiero demostrar que Japón puede tener un campeón del mundo.", "Pelear el campeonato sería un sueño para toda mi familia."],
+      "retirement": ["Tengo 24 años. Si me retiro ahora, mi mamá me mata.", "No me voy hasta ganar una carrera al menos. Eso seguro."]
+    },
+    "lawson_liam": {
+      "victory": ["¡Increíble! ¡De Red Bull junior a ganar en F1! ¡Qué viaje!", "Nueva Zelanda en lo más alto. Esto es para todo el país."],
+      "defeat": ["Difícil pero estoy aprendiendo al lado del mejor del mundo.", "No es fácil ser compañero de Max. Pero me hace mejorar cada día."],
+      "crash": ["Todavía estoy encontrando el límite del RB. Es mucho más rápido que el VCARB.", "Un error costoso. Tengo que ser más limpio en estas situaciones."],
+      "teammate_conflict": ["Max es la referencia. Mi trabajo es acercarme a él cada carrera.", "No hay conflicto. Hay respeto y competencia. Así debe ser."],
+      "rain": ["La lluvia en mi país me preparó para esto. Me siento cómodo.", "Condiciones complicadas, pero mantuve la calma y sumé puntos."],
+      "bad_quali": ["Todavía me falta confianza para esa vuelta al límite absoluto.", "Estoy a unas décimas de donde necesito estar. Lo voy a encontrar."],
+      "championship": ["Mi sueño es un campeonato con Red Bull. Paso a paso.", "Primero tengo que ser consistente. El resto viene solo."],
+      "retirement": ["A los 22 años no pienso en eso. Solo pienso en mejorar.", "Recién estoy empezando mi historia en F1."]
+    },
+    "albon_alex": {
+      "victory": ["¡Por fin! Después de todo lo que pasé, esta victoria sabe diferente.", "Williams needed this. Yo necesitaba esto. ¡Qué momento!"],
+      "defeat": ["Exprimimos cada gota de rendimiento del auto. No había más.", "Frustrante, pero estamos construyendo algo. La paciencia es clave."],
+      "crash": ["No fue mi intención. A veces las cosas pasan muy rápido.", "Fue un incidente de carrera. Nada intencional de ningún lado."],
+      "teammate_conflict": ["Carlos y yo nos llevamos bien. Dos pilotos experimentados, sin drama.", "No hay ego acá. Los dos queremos que Williams crezca."],
+      "rain": ["La lluvia puede ser nuestra amiga cuando el auto no es el más rápido.", "En mojado todo se iguala. Ahí puedo brillar."],
+      "bad_quali": ["El auto llega a Q2 por puro esfuerzo. No tenemos para más hoy.", "Sacamos lo máximo. A veces lo máximo de un Williams es P12."],
+      "championship": ["Williams peleando un campeonato sería la historia del siglo.", "Primero puntos consistentes, después podios, después... quién sabe."],
+      "retirement": ["Volví de no tener asiento a ser titular. No me rindo nunca.", "Mientras tenga motivación y velocidad, sigo. Y tengo las dos."]
+    },
+    "colapinto_franco": {
+      "victory": ["¡VAMOS ARGENTINA! ¡Desde Buenos Aires hasta lo más alto!", "Para mi familia, para mi país. Argentina tiene piloto ganador en F1."],
+      "defeat": ["Duro, pero estoy agradecido de estar en la F1. Cada carrera aprendo.", "No fue el resultado pero completé la carrera. En mi posición, eso vale."],
+      "crash": ["Error mío. La F1 no perdona y yo pagué el precio hoy.", "Fui demasiado ambicioso. A veces hay que aceptar la posición."],
+      "teammate_conflict": ["Yuki es intenso pero me cae bien. Competimos fuerte y eso está bueno.", "No busco conflicto. Busco ser rápido. Lo demás viene solo."],
+      "rain": ["La lluvia en Buenos Aires es diferente, pero me preparó para esto.", "Me gusta correr bajo lluvia. Todo es más impredecible y emocionante."],
+      "bad_quali": ["Todavía me falta conocer bien todos los circuitos. Eso cuesta tiempo.", "No fue buena, pero mañana en carrera puedo remontar."],
+      "championship": ["Argentina no tiene un campeón desde Fangio. Sería épico.", "Mi sueño es hacer que cada argentino se despierte a ver F1 por mí."],
+      "retirement": ["Tengo 21 años y acabo de cumplir mi sueño. ¿Retirarme? Ni loco.", "Recién llegué y ya estoy pensando en quedarme 20 años."]
+    }
+  }
+}

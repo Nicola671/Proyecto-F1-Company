@@ -1,0 +1,51 @@
+{
+  "components": [
+    { "id": "aero_fw_v1", "name": "Front Wing V1", "category": "AERO", "tier": 1, "baseCost": 1500000, "researchTimeWeeks": 4, "stats": { "aero": 5, "speed": 2 }, "requirements": [], "description": "Standard entry wing." },
+    { "id": "aero_fw_v2", "name": "Front Wing V2", "category": "AERO", "tier": 2, "baseCost": 3500000, "researchTimeWeeks": 6, "stats": { "aero": 12, "speed": 5 }, "requirements": ["aero_fw_v1"], "description": "Improved vortex control." },
+    { "id": "aero_fw_v3", "name": "Front Wing V3", "category": "AERO", "tier": 3, "baseCost": 7500000, "researchTimeWeeks": 10, "stats": { "aero": 25, "speed": 10 }, "requirements": ["aero_fw_v2"], "description": "Elite carbon composites." },
+    
+    { "id": "aero_rw_v1", "name": "Rear Wing V1", "category": "AERO", "tier": 1, "baseCost": 1300000, "researchTimeWeeks": 3, "stats": { "aero": 6 }, "requirements": [], "description": "Basic downforce." },
+    { "id": "aero_rw_v2", "name": "Rear Wing V2", "category": "AERO", "tier": 2, "baseCost": 3000000, "researchTimeWeeks": 5, "stats": { "aero": 15 }, "requirements": ["aero_rw_v1"], "description": "Dual plane design." },
+    { "id": "aero_rw_v3", "name": "Rear Wing V3", "category": "AERO", "tier": 3, "baseCost": 6000000, "researchTimeWeeks": 8, "stats": { "aero": 30 }, "requirements": ["aero_rw_v2"], "description": "Ultra-thin drag reduction." },
+
+    { "id": "aero_floor_v1", "name": "Floor V1", "category": "AERO", "tier": 1, "baseCost": 2000000, "researchTimeWeeks": 5, "stats": { "aero": 10 }, "requirements": [], "description": "Venturi tunnel prototype." },
+    { "id": "aero_floor_v2", "name": "Floor V2", "category": "AERO", "tier": 2, "baseCost": 4500000, "researchTimeWeeks": 7, "stats": { "aero": 22 }, "requirements": ["aero_floor_v1"], "description": "Edge sealing flow." },
+    { "id": "aero_floor_v3", "name": "Floor V3", "category": "AERO", "tier": 3, "baseCost": 9000000, "researchTimeWeeks": 12, "stats": { "aero": 45 }, "requirements": ["aero_floor_v2"], "description": "Max ground effect." },
+
+    { "id": "engine_ice_v1", "name": "ICE V1", "category": "ENGINE", "tier": 1, "baseCost": 5000000, "researchTimeWeeks": 8, "stats": { "engine": 10, "speed": 8 }, "requirements": [], "description": "Core power unit." },
+    { "id": "engine_ice_v2", "name": "ICE V2", "category": "ENGINE", "tier": 2, "baseCost": 12000000, "researchTimeWeeks": 14, "stats": { "engine": 25, "speed": 18 }, "requirements": ["engine_ice_v1"], "description": "Advanced combustion." },
+    { "id": "engine_ice_v3", "name": "ICE V3", "category": "ENGINE", "tier": 3, "baseCost": 25000000, "researchTimeWeeks": 20, "stats": { "engine": 55, "speed": 40 }, "requirements": ["engine_ice_v2"], "description": "Hypersonic ignition." },
+
+    { "id": "engine_turbo_v1", "name": "Turbo V1", "category": "ENGINE", "tier": 1, "baseCost": 2500000, "researchTimeWeeks": 4, "stats": { "engine": 5, "speed": 5 }, "requirements": ["engine_ice_v1"], "description": "Standard boost." },
+    { "id": "engine_turbo_v2", "name": "Turbo V2", "category": "ENGINE", "tier": 2, "baseCost": 5000000, "researchTimeWeeks": 7, "stats": { "engine": 12, "speed": 12 }, "requirements": ["engine_turbo_v1"], "description": "Titanium compressor." },
+    { "id": "engine_turbo_v3", "name": "Turbo V3", "category": "ENGINE", "tier": 3, "baseCost": 10000000, "researchTimeWeeks": 10, "stats": { "engine": 28, "speed": 30 }, "requirements": ["engine_turbo_v2"], "description": "Infinity turbo loop." },
+
+    { "id": "engine_ers_v1", "name": "ERS V1", "category": "ENGINE", "tier": 1, "baseCost": 3000000, "researchTimeWeeks": 6, "stats": { "engine": 8, "speed": 10 }, "requirements": ["engine_ice_v1"], "description": "Energy recovery." },
+    { "id": "engine_ers_v2", "name": "ERS V2", "category": "ENGINE", "tier": 2, "baseCost": 7000000, "researchTimeWeeks": 9, "stats": { "engine": 18, "speed": 22 }, "requirements": ["engine_ers_v1"], "description": "Quick harvesting." },
+    { "id": "engine_ers_v3", "name": "ERS V3", "category": "ENGINE", "tier": 3, "baseCost": 15000000, "researchTimeWeeks": 15, "stats": { "engine": 42, "speed": 50 }, "requirements": ["engine_ers_v2"], "description": "Nuclear battery core." },
+
+    { "id": "chassis_sus_v1", "name": "Suspension V1", "category": "CHASSIS", "tier": 1, "baseCost": 1800000, "researchTimeWeeks": 4, "stats": { "chassis": 8, "consistency": 5 }, "requirements": [], "description": "Durable springs." },
+    { "id": "chassis_sus_v2", "name": "Suspension V2", "category": "CHASSIS", "tier": 2, "baseCost": 4000000, "researchTimeWeeks": 6, "stats": { "chassis": 18, "consistency": 12 }, "requirements": ["chassis_sus_v1"], "description": "Active damping." },
+    { "id": "chassis_sus_v3", "name": "Suspension V3", "category": "CHASSIS", "tier": 3, "baseCost": 8500000, "researchTimeWeeks": 10, "stats": { "chassis": 35, "consistency": 25 }, "requirements": ["chassis_sus_v2"], "description": "Magnetic levitation." },
+
+    { "id": "chassis_bra_v1", "name": "Brakes V1", "category": "CHASSIS", "tier": 1, "baseCost": 1200000, "researchTimeWeeks": 3, "stats": { "chassis": 5, "defense": 8 }, "requirements": [], "description": "Carbon pads." },
+    { "id": "chassis_bra_v2", "name": "Brakes V2", "category": "CHASSIS", "tier": 2, "baseCost": 2800000, "researchTimeWeeks": 5, "stats": { "chassis": 12, "defense": 18 }, "requirements": ["chassis_bra_v1"], "description": "Ceramic disk heat." },
+    { "id": "chassis_bra_v3", "name": "Brakes V3", "category": "CHASSIS", "tier": 3, "baseCost": 5500000, "researchTimeWeeks": 8, "stats": { "chassis": 28, "defense": 35 }, "requirements": ["chassis_bra_v2"], "description": "Instant stop tech." },
+
+    { "id": "chassis_steer_v1", "name": "Steering V1", "category": "CHASSIS", "tier": 1, "baseCost": 1000000, "researchTimeWeeks": 3, "stats": { "chassis": 4, "speed": 2 }, "requirements": [], "description": "Manual racks." },
+    { "id": "chassis_steer_v2", "name": "Steering V2", "category": "CHASSIS", "tier": 2, "baseCost": 2500000, "researchTimeWeeks": 5, "stats": { "chassis": 10, "speed": 6 }, "requirements": ["chassis_steer_v1"], "description": "Power assist." },
+    { "id": "chassis_steer_v3", "name": "Steering V3", "category": "CHASSIS", "tier": 3, "baseCost": 5000000, "researchTimeWeeks": 8, "stats": { "chassis": 22, "speed": 15 }, "requirements": ["chassis_steer_v2"], "description": "Drive-by-wire." },
+
+    { "id": "rel_gear_v1", "name": "Gearbox V1", "category": "RELIABILITY", "tier": 1, "baseCost": 2000000, "researchTimeWeeks": 5, "stats": { "reliability": 15 }, "requirements": [], "description": "Standard 8-speed." },
+    { "id": "rel_gear_v2", "name": "Gearbox V2", "category": "RELIABILITY", "tier": 2, "baseCost": 4500000, "researchTimeWeeks": 8, "stats": { "reliability": 35 }, "requirements": ["rel_gear_v1"], "description": "Seamless shifting." },
+    { "id": "rel_gear_v3", "name": "Gearbox V3", "category": "RELIABILITY", "tier": 3, "baseCost": 9500000, "researchTimeWeeks": 12, "stats": { "reliability": 70 }, "requirements": ["rel_gear_v2"], "description": "Indestructible sync." },
+
+    { "id": "rel_cool_v1", "name": "Cooling V1", "category": "RELIABILITY", "tier": 1, "baseCost": 1500000, "researchTimeWeeks": 4, "stats": { "reliability": 12 }, "requirements": [], "description": "Aluminum core." },
+    { "id": "rel_cool_v2", "name": "Cooling V2", "category": "RELIABILITY", "tier": 2, "baseCost": 3500000, "researchTimeWeeks": 6, "stats": { "reliability": 28 }, "requirements": ["rel_cool_v1"], "description": "High flow vents." },
+    { "id": "rel_cool_v3", "name": "Cooling V3", "category": "RELIABILITY", "tier": 3, "baseCost": 7000000, "researchTimeWeeks": 10, "stats": { "reliability": 60 }, "requirements": ["rel_cool_v2"], "description": "Liquid nitrogen cycle." },
+
+    { "id": "rel_elec_v1", "name": "Electronics V1", "category": "RELIABILITY", "tier": 1, "baseCost": 1200000, "researchTimeWeeks": 3, "stats": { "reliability": 10 }, "requirements": [], "description": "Copper wiring." },
+    { "id": "rel_elec_v2", "name": "Electronics V2", "category": "RELIABILITY", "tier": 2, "baseCost": 2800000, "researchTimeWeeks": 5, "stats": { "reliability": 25 }, "requirements": ["rel_elec_v1"], "description": "Fiber optic harness." },
+    { "id": "rel_elec_v3", "name": "Electronics V3", "category": "RELIABILITY", "tier": 3, "baseCost": 6000000, "researchTimeWeeks": 8, "stats": { "reliability": 55 }, "requirements": ["rel_elec_v2"], "description": "Shielded AI grid." }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "circuit_modifiers": [
+    {
+      "id": "monaco_legend",
+      "circuitId": "monaco",
+      "difficultyId": "LEGEND",
+      "modifiers": { "overtakingDifficulty": 95, "safetyCarProb": 85, "crashRisk": 1.5, "aiErrorChance": -15 },
+      "description": "En dificultad Leyenda, adelantar en Mónaco es casi imposible y la FIA no perdona roces."
+    },
+    {
+      "id": "spa_legend",
+      "circuitId": "spa",
+      "difficultyId": "LEGEND",
+      "modifiers": { "rainProb": 65, "tireDegradation": "EXTREME", "fuelConsumption": 1.2 },
+      "description": "En Spa bajo Leyenda, el desgaste de neumáticos en Blanchimont es crítico."
+    },
+    {
+      "id": "monza_legend",
+      "circuitId": "monza",
+      "difficultyId": "LEGEND",
+      "modifiers": { "engineRisk": 1.4, "brakingErrorChance": 1.3 },
+      "description": "El Templo de la Velocidad exige motores al 110%, elevando el riesgo de rotura."
+    },
+    {
+      "id": "singapore_narrative",
+      "circuitId": "singapore",
+      "difficultyId": "NARRATIVE",
+      "modifiers": { "overtakingDifficulty": 30, "tireDegradation": "LOW" },
+      "description": "La humedad no afecta tanto y los rebases son más sencillos para el jugador."
+    }
+  ]
+}

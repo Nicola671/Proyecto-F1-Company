@@ -1,0 +1,289 @@
+{
+  "achievements": [
+    {
+      "id": "first_win",
+      "title": "¡A lo más alto!",
+      "description": "Gana tu primera carrera de F1.",
+      "icon": "ach_win_1",
+      "category": "RACING",
+      "rarity": "COMMON",
+      "secret": false,
+      "condition": {
+        "type": "race_wins",
+        "stringValue": "1",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 50,
+        "budgetBonus": 0.5
+      },
+      "flavorText": "El champán nunca supo tan bien."
+    },
+    {
+      "id": "ten_wins",
+      "title": "Martillo",
+      "description": "Consigue 10 victorias en tu carrera.",
+      "icon": "ach_win_10",
+      "category": "RACING",
+      "rarity": "UNCOMMON",
+      "secret": false,
+      "condition": {
+        "type": "race_wins",
+        "stringValue": "10",
+        "intValue": 10
+      },
+      "reward": {
+        "legacyPoints": 150,
+        "budgetBonus": 2.0
+      },
+      "flavorText": "Estás empezando a dominar la pista."
+    },
+    {
+      "id": "first_podium",
+      "title": "Brillo de plata",
+      "description": "Consigue tu primer podio.",
+      "icon": "ach_podium_1",
+      "category": "RACING",
+      "rarity": "COMMON",
+      "secret": false,
+      "condition": {
+        "type": "podiums",
+        "stringValue": "1",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 25,
+        "budgetBonus": 0.2
+      },
+      "flavorText": "Desde aquí arriba todo se ve distinto."
+    },
+    {
+      "id": "win_monaco",
+      "title": "Príncipe de Montecarlo",
+      "description": "Gana el Gran Premio de Mónaco.",
+      "icon": "ach_monaco",
+      "category": "RACING",
+      "rarity": "RARE",
+      "secret": false,
+      "condition": {
+        "type": "circuit_win",
+        "stringValue": "monaco",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 100,
+        "budgetBonus": 1.0
+      },
+      "flavorText": "Joyas, yates y gloria eterna."
+    },
+    {
+      "id": "win_monza",
+      "title": "Il Tifoso",
+      "description": "Gana en el Templo de la Velocidad (Monza).",
+      "icon": "ach_monza",
+      "category": "RACING",
+      "rarity": "UNCOMMON",
+      "secret": false,
+      "condition": {
+        "type": "circuit_win",
+        "stringValue": "monza",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 75,
+        "budgetBonus": 0.8
+      },
+      "flavorText": "El rugido de los fans es ensordecedor."
+    },
+    {
+      "id": "one_two_finish",
+      "title": "Dominio Total",
+      "description": "Consigue un 1-2 (primer y segundo puesto) en una carrera.",
+      "icon": "ach_one_two",
+      "category": "RACING",
+      "rarity": "RARE",
+      "secret": false,
+      "condition": {
+        "type": "one_two_finish",
+        "stringValue": "1",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 120,
+        "budgetBonus": 1.5
+      },
+      "flavorText": "No dejamos ni las migajas."
+    },
+    {
+      "id": "constructors_championship",
+      "title": "La Corona de Equipos",
+      "description": "Gana el Campeonato Mundial de Constructores.",
+      "icon": "ach_const_champ",
+      "category": "LEGACY",
+      "rarity": "EPIC",
+      "secret": false,
+      "condition": {
+        "type": "const_champ",
+        "stringValue": "1",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 500,
+        "budgetBonus": 10.0
+      },
+      "flavorText": "Vuestro nombre está escrito en la historia."
+    },
+    {
+      "id": "hire_regen",
+      "title": "Ojo Clínico",
+      "description": "Contrata a un piloto generado (Regen).",
+      "icon": "ach_hire_regen",
+      "category": "MANAGEMENT",
+      "rarity": "COMMON",
+      "secret": false,
+      "condition": {
+        "type": "hire_regen",
+        "stringValue": "1",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 30,
+        "budgetBonus": 0.1
+      },
+      "flavorText": "El futuro de la F1 está en tus manos."
+    },
+    {
+      "id": "academy_graduate",
+      "title": "De la Cuna al Paddock",
+      "description": "Promueve a un piloto de tu Academia al equipo principal.",
+      "icon": "ach_academy",
+      "category": "MANAGEMENT",
+      "rarity": "UNCOMMON",
+      "secret": false,
+      "condition": {
+        "type": "academy_promote",
+        "stringValue": "1",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 80,
+        "budgetBonus": 0.5
+      },
+      "flavorText": "Vió sus primeros pasos y ahora lo ves volar."
+    },
+    {
+      "id": "mega_upgrade",
+      "title": "Eureka",
+      "description": "Instala un componente con una mejora de rendimiento masiva.",
+      "icon": "ach_eureka",
+      "category": "MANAGEMENT",
+      "rarity": "RARE",
+      "secret": false,
+      "condition": {
+        "type": "upgrade_gain",
+        "stringValue": "5",
+        "intValue": 5
+      },
+      "reward": {
+        "legacyPoints": 50,
+        "budgetBonus": 1.0
+      },
+      "flavorText": "Nuestros ingenieros han encontrado 'magia'."
+    },
+    {
+      "id": "rich_team",
+      "title": "Magnate del Paddock",
+      "description": "Alcanza un presupuesto de $200M.",
+      "icon": "ach_rich",
+      "category": "FINANCIAL",
+      "rarity": "EPIC",
+      "secret": false,
+      "condition": {
+        "type": "budget_reach",
+        "stringValue": "200",
+        "intValue": 200
+      },
+      "reward": {
+        "legacyPoints": 200,
+        "budgetBonus": 0.0
+      },
+      "flavorText": "El dinero no da la felicidad, pero compra túneles de viento."
+    },
+    {
+      "id": "broke_team",
+      "title": "En el Alambre",
+      "description": "Tu presupuesto ha bajado de $1M.",
+      "icon": "ach_broke",
+      "category": "FINANCIAL",
+      "rarity": "COMMON",
+      "secret": true,
+      "condition": {
+        "type": "budget_low",
+        "stringValue": "1",
+        "intValue": 1
+      },
+      "reward": {
+        "legacyPoints": 10,
+        "budgetBonus": 2.0
+      },
+      "flavorText": "La FIA está mirando con lupa nuestras cuentas."
+    },
+    {
+      "id": "rank_contender",
+      "title": "Aspirante",
+      "description": "Alcanza 1,000 puntos de Legado.",
+      "icon": "ach_rank_1",
+      "category": "LEGACY",
+      "rarity": "COMMON",
+      "secret": false,
+      "condition": {
+        "type": "legacy_points",
+        "stringValue": "1000",
+        "intValue": 1000
+      },
+      "reward": {
+        "legacyPoints": 0,
+        "budgetBonus": 0.5
+      },
+      "flavorText": "Te están empezando a tomar en serio."
+    },
+    {
+      "id": "rank_legend",
+      "title": "Mito Viviente",
+      "description": "Alcanza 10,000 puntos de Legado.",
+      "icon": "ach_rank_3",
+      "category": "LEGACY",
+      "rarity": "LEGENDARY",
+      "secret": false,
+      "condition": {
+        "type": "legacy_points",
+        "stringValue": "10000",
+        "intValue": 10000
+      },
+      "reward": {
+        "legacyPoints": 0,
+        "budgetBonus": 5.0
+      },
+      "flavorText": "Tu nombre se susurrará en el paddock por décadas."
+    },
+    {
+      "id": "seasons_completed",
+      "title": "Veterano",
+      "description": "Completa 5 temporadas completas.",
+      "icon": "ach_seasons_5",
+      "category": "MANAGEMENT",
+      "rarity": "UNCOMMON",
+      "secret": false,
+      "condition": {
+        "type": "seasons_completed",
+        "stringValue": "5",
+        "intValue": 5
+      },
+      "reward": {
+        "legacyPoints": 200,
+        "budgetBonus": 1.5
+      },
+      "flavorText": "Has sobrevivido a las sillas musicales de la F1."
+    }
+  ]
+}

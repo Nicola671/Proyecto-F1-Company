@@ -1,0 +1,354 @@
+{
+  "teams": [
+    {
+      "id": "red_bull",
+      "name": "Oracle Red Bull Racing",
+      "shortName": "Red Bull",
+      "color": "#1E41FF",
+      "accentColor": "#FFD700",
+      "nationality": "AT",
+      "stars": 5,
+      "budget": {
+        "initial": 145000000,
+        "cap": 145000000,
+        "rdBudget": 82000000
+      },
+      "carStats": {
+        "aero": 95,
+        "engine": 93,
+        "chassis": 94,
+        "reliability": 87,
+        "overall": 93
+      },
+      "staff": {
+        "technicalDirectorLevel": 5,
+        "aeroChiefLevel": 5,
+        "engineChiefLevel": 4,
+        "raceEngineerLevel": 5,
+        "dataAnalystLevel": 4
+      },
+      "objectives": {
+        "minimum": "top3_constructors",
+        "standard": "top2_constructors",
+        "elite": "win_both_championships"
+      },
+      "fanbase": 92,
+      "prestige": 95
+    },
+    {
+      "id": "ferrari",
+      "name": "Scuderia Ferrari HP",
+      "shortName": "Ferrari",
+      "color": "#E8002D",
+      "accentColor": "#FFFFFF",
+      "nationality": "IT",
+      "stars": 5,
+      "budget": {
+        "initial": 143000000,
+        "cap": 145000000,
+        "rdBudget": 80000000
+      },
+      "carStats": {
+        "aero": 91,
+        "engine": 94,
+        "chassis": 90,
+        "reliability": 84,
+        "overall": 91
+      },
+      "staff": {
+        "technicalDirectorLevel": 4,
+        "aeroChiefLevel": 4,
+        "engineChiefLevel": 5,
+        "raceEngineerLevel": 4,
+        "dataAnalystLevel": 4
+      },
+      "objectives": {
+        "minimum": "top3_constructors",
+        "standard": "win_constructors_championship",
+        "elite": "win_both_championships"
+      },
+      "fanbase": 98,
+      "prestige": 97
+    },
+    {
+      "id": "mclaren",
+      "name": "McLaren F1 Team",
+      "shortName": "McLaren",
+      "color": "#FF8000",
+      "accentColor": "#0090FF",
+      "nationality": "GB",
+      "stars": 5,
+      "budget": {
+        "initial": 142000000,
+        "cap": 145000000,
+        "rdBudget": 78000000
+      },
+      "carStats": {
+        "aero": 93,
+        "engine": 90,
+        "chassis": 92,
+        "reliability": 89,
+        "overall": 92
+      },
+      "staff": {
+        "technicalDirectorLevel": 5,
+        "aeroChiefLevel": 5,
+        "engineChiefLevel": 4,
+        "raceEngineerLevel": 4,
+        "dataAnalystLevel": 5
+      },
+      "objectives": {
+        "minimum": "top3_constructors",
+        "standard": "win_constructors_championship",
+        "elite": "win_both_championships"
+      },
+      "fanbase": 88,
+      "prestige": 90
+    },
+    {
+      "id": "mercedes",
+      "name": "Mercedes-AMG PETRONAS F1 Team",
+      "shortName": "Mercedes",
+      "color": "#27F4D2",
+      "accentColor": "#000000",
+      "nationality": "DE",
+      "stars": 5,
+      "budget": {
+        "initial": 144000000,
+        "cap": 145000000,
+        "rdBudget": 80000000
+      },
+      "carStats": {
+        "aero": 89,
+        "engine": 92,
+        "chassis": 88,
+        "reliability": 91,
+        "overall": 90
+      },
+      "staff": {
+        "technicalDirectorLevel": 5,
+        "aeroChiefLevel": 4,
+        "engineChiefLevel": 5,
+        "raceEngineerLevel": 4,
+        "dataAnalystLevel": 5
+      },
+      "objectives": {
+        "minimum": "top4_constructors",
+        "standard": "top2_constructors",
+        "elite": "win_constructors_championship"
+      },
+      "fanbase": 90,
+      "prestige": 93
+    },
+    {
+      "id": "aston_martin",
+      "name": "Aston Martin Aramco F1 Team",
+      "shortName": "Aston Martin",
+      "color": "#229971",
+      "accentColor": "#CEDC00",
+      "nationality": "GB",
+      "stars": 4,
+      "budget": {
+        "initial": 135000000,
+        "cap": 145000000,
+        "rdBudget": 68000000
+      },
+      "carStats": {
+        "aero": 82,
+        "engine": 86,
+        "chassis": 83,
+        "reliability": 85,
+        "overall": 84
+      },
+      "staff": {
+        "technicalDirectorLevel": 5,
+        "aeroChiefLevel": 3,
+        "engineChiefLevel": 4,
+        "raceEngineerLevel": 3,
+        "dataAnalystLevel": 3
+      },
+      "objectives": {
+        "minimum": "top5_constructors",
+        "standard": "top3_constructors",
+        "elite": "race_win"
+      },
+      "fanbase": 72,
+      "prestige": 75
+    },
+    {
+      "id": "alpine",
+      "name": "BWT Alpine F1 Team",
+      "shortName": "Alpine",
+      "color": "#FF87BC",
+      "accentColor": "#0090FF",
+      "nationality": "FR",
+      "stars": 3,
+      "budget": {
+        "initial": 120000000,
+        "cap": 145000000,
+        "rdBudget": 58000000
+      },
+      "carStats": {
+        "aero": 76,
+        "engine": 80,
+        "chassis": 77,
+        "reliability": 79,
+        "overall": 78
+      },
+      "staff": {
+        "technicalDirectorLevel": 3,
+        "aeroChiefLevel": 3,
+        "engineChiefLevel": 4,
+        "raceEngineerLevel": 3,
+        "dataAnalystLevel": 3
+      },
+      "objectives": {
+        "minimum": "top7_constructors",
+        "standard": "top5_constructors",
+        "elite": "podium_finish"
+      },
+      "fanbase": 62,
+      "prestige": 65
+    },
+    {
+      "id": "haas",
+      "name": "MoneyGram Haas F1 Team",
+      "shortName": "Haas",
+      "color": "#B6BABD",
+      "accentColor": "#E80020",
+      "nationality": "US",
+      "stars": 3,
+      "budget": {
+        "initial": 105000000,
+        "cap": 145000000,
+        "rdBudget": 48000000
+      },
+      "carStats": {
+        "aero": 74,
+        "engine": 82,
+        "chassis": 73,
+        "reliability": 78,
+        "overall": 76
+      },
+      "staff": {
+        "technicalDirectorLevel": 3,
+        "aeroChiefLevel": 2,
+        "engineChiefLevel": 3,
+        "raceEngineerLevel": 3,
+        "dataAnalystLevel": 2
+      },
+      "objectives": {
+        "minimum": "top8_constructors",
+        "standard": "top6_constructors",
+        "elite": "top4_constructors"
+      },
+      "fanbase": 45,
+      "prestige": 48
+    },
+    {
+      "id": "racing_bulls",
+      "name": "Visa Cash App Racing Bulls",
+      "shortName": "RB",
+      "color": "#6692FF",
+      "accentColor": "#FFFFFF",
+      "nationality": "IT",
+      "stars": 3,
+      "budget": {
+        "initial": 110000000,
+        "cap": 145000000,
+        "rdBudget": 52000000
+      },
+      "carStats": {
+        "aero": 78,
+        "engine": 84,
+        "chassis": 76,
+        "reliability": 80,
+        "overall": 79
+      },
+      "staff": {
+        "technicalDirectorLevel": 3,
+        "aeroChiefLevel": 3,
+        "engineChiefLevel": 3,
+        "raceEngineerLevel": 3,
+        "dataAnalystLevel": 3
+      },
+      "objectives": {
+        "minimum": "top8_constructors",
+        "standard": "top6_constructors",
+        "elite": "top4_constructors"
+      },
+      "fanbase": 50,
+      "prestige": 55
+    },
+    {
+      "id": "williams",
+      "name": "Williams Racing",
+      "shortName": "Williams",
+      "color": "#64C4FF",
+      "accentColor": "#041E42",
+      "nationality": "GB",
+      "stars": 3,
+      "budget": {
+        "initial": 100000000,
+        "cap": 145000000,
+        "rdBudget": 45000000
+      },
+      "carStats": {
+        "aero": 72,
+        "engine": 83,
+        "chassis": 71,
+        "reliability": 76,
+        "overall": 75
+      },
+      "staff": {
+        "technicalDirectorLevel": 3,
+        "aeroChiefLevel": 2,
+        "engineChiefLevel": 3,
+        "raceEngineerLevel": 2,
+        "dataAnalystLevel": 3
+      },
+      "objectives": {
+        "minimum": "score_points",
+        "standard": "top7_constructors",
+        "elite": "top5_constructors"
+      },
+      "fanbase": 68,
+      "prestige": 70
+    },
+    {
+      "id": "sauber",
+      "name": "Stake F1 Team Kick Sauber",
+      "shortName": "Sauber",
+      "color": "#52E252",
+      "accentColor": "#000000",
+      "nationality": "CH",
+      "stars": 2,
+      "budget": {
+        "initial": 95000000,
+        "cap": 145000000,
+        "rdBudget": 40000000
+      },
+      "carStats": {
+        "aero": 68,
+        "engine": 78,
+        "chassis": 67,
+        "reliability": 74,
+        "overall": 72
+      },
+      "staff": {
+        "technicalDirectorLevel": 2,
+        "aeroChiefLevel": 2,
+        "engineChiefLevel": 3,
+        "raceEngineerLevel": 2,
+        "dataAnalystLevel": 2
+      },
+      "objectives": {
+        "minimum": "score_points",
+        "standard": "top8_constructors",
+        "elite": "top6_constructors"
+      },
+      "fanbase": 35,
+      "prestige": 40
+    }
+  ]
+}

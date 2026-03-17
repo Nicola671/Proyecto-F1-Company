@@ -1,0 +1,984 @@
+{
+  "pilots": [
+    {
+      "id": "verstappen_max",
+      "fullName": "Max Verstappen",
+      "shortName": "VER",
+      "number": 1,
+      "nationality": "NL",
+      "flag": "🇳🇱",
+      "teamId": "red_bull",
+      "age": 27,
+      "stars": 5,
+      "spriteId": "pilot_verstappen",
+      "stats": {
+        "speed": 97,
+        "consistency": 95,
+        "rain": 92,
+        "starts": 88,
+        "defense": 85,
+        "attack": 96,
+        "tireManagement": 90,
+        "fuelManagement": 88,
+        "concentration": 96,
+        "adaptability": 91
+      },
+      "hidden": {
+        "potential": 99,
+        "growthCurve": 0.0,
+        "peakAge": 30,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 85,
+        "loyalty": 65,
+        "aggression": 78,
+        "initialMood": 15
+      },
+      "contract": {
+        "salary": 55000000,
+        "duration": 3,
+        "role": "Pilot1",
+        "exitClause": 200000000
+      },
+      "career": {
+        "championships": 4,
+        "wins": 63,
+        "podiums": 112,
+        "poles": 40,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "norris_lando",
+      "fullName": "Lando Norris",
+      "shortName": "NOR",
+      "number": 4,
+      "nationality": "GB",
+      "flag": "🇬🇧",
+      "teamId": "mclaren",
+      "age": 25,
+      "stars": 5,
+      "spriteId": "pilot_norris",
+      "stats": {
+        "speed": 93,
+        "consistency": 88,
+        "rain": 86,
+        "starts": 84,
+        "defense": 82,
+        "attack": 91,
+        "tireManagement": 86,
+        "fuelManagement": 84,
+        "concentration": 89,
+        "adaptability": 87
+      },
+      "hidden": {
+        "potential": 96,
+        "growthCurve": 0.6,
+        "peakAge": 29,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 55,
+        "loyalty": 80,
+        "aggression": 60,
+        "initialMood": 20
+      },
+      "contract": {
+        "salary": 25000000,
+        "duration": 3,
+        "role": "Pilot1",
+        "exitClause": 80000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 4,
+        "podiums": 28,
+        "poles": 9,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "leclerc_charles",
+      "fullName": "Charles Leclerc",
+      "shortName": "LEC",
+      "number": 16,
+      "nationality": "MC",
+      "flag": "🇲🇨",
+      "teamId": "ferrari",
+      "age": 27,
+      "stars": 5,
+      "spriteId": "pilot_leclerc",
+      "stats": {
+        "speed": 95,
+        "consistency": 84,
+        "rain": 83,
+        "starts": 92,
+        "defense": 79,
+        "attack": 93,
+        "tireManagement": 83,
+        "fuelManagement": 82,
+        "concentration": 88,
+        "adaptability": 86
+      },
+      "hidden": {
+        "potential": 97,
+        "growthCurve": 0.3,
+        "peakAge": 30,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 65,
+        "loyalty": 78,
+        "aggression": 65,
+        "initialMood": 15
+      },
+      "contract": {
+        "salary": 22000000,
+        "duration": 4,
+        "role": "Pilot1",
+        "exitClause": 100000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 8,
+        "podiums": 40,
+        "poles": 26,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "piastri_oscar",
+      "fullName": "Oscar Piastri",
+      "shortName": "PIA",
+      "number": 81,
+      "nationality": "AU",
+      "flag": "🇦🇺",
+      "teamId": "mclaren",
+      "age": 23,
+      "stars": 4,
+      "spriteId": "pilot_piastri",
+      "stats": {
+        "speed": 89,
+        "consistency": 87,
+        "rain": 82,
+        "starts": 85,
+        "defense": 84,
+        "attack": 88,
+        "tireManagement": 86,
+        "fuelManagement": 83,
+        "concentration": 89,
+        "adaptability": 85
+      },
+      "hidden": {
+        "potential": 95,
+        "growthCurve": 0.8,
+        "peakAge": 28,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 45,
+        "loyalty": 72,
+        "aggression": 50,
+        "initialMood": 20
+      },
+      "contract": {
+        "salary": 10000000,
+        "duration": 3,
+        "role": "Pilot2",
+        "exitClause": 40000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 2,
+        "podiums": 12,
+        "poles": 3,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "sainz_carlos",
+      "fullName": "Carlos Sainz Jr.",
+      "shortName": "SAI",
+      "number": 55,
+      "nationality": "ES",
+      "flag": "🇪🇸",
+      "teamId": "williams",
+      "age": 30,
+      "stars": 4,
+      "spriteId": "pilot_sainz",
+      "stats": {
+        "speed": 88,
+        "consistency": 90,
+        "rain": 84,
+        "starts": 82,
+        "defense": 85,
+        "attack": 86,
+        "tireManagement": 89,
+        "fuelManagement": 87,
+        "concentration": 88,
+        "adaptability": 89
+      },
+      "hidden": {
+        "potential": 90,
+        "growthCurve": 0.0,
+        "peakAge": 29,
+        "declineRate": 0.4
+      },
+      "personality": {
+        "ego": 50,
+        "loyalty": 68,
+        "aggression": 55,
+        "initialMood": 10
+      },
+      "contract": {
+        "salary": 12000000,
+        "duration": 2,
+        "role": "Pilot1",
+        "exitClause": 30000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 4,
+        "podiums": 25,
+        "poles": 6,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "russell_george",
+      "fullName": "George Russell",
+      "shortName": "RUS",
+      "number": 63,
+      "nationality": "GB",
+      "flag": "🇬🇧",
+      "teamId": "mercedes",
+      "age": 27,
+      "stars": 5,
+      "spriteId": "pilot_russell",
+      "stats": {
+        "speed": 91,
+        "consistency": 88,
+        "rain": 84,
+        "starts": 90,
+        "defense": 83,
+        "attack": 87,
+        "tireManagement": 85,
+        "fuelManagement": 84,
+        "concentration": 90,
+        "adaptability": 86
+      },
+      "hidden": {
+        "potential": 94,
+        "growthCurve": 0.3,
+        "peakAge": 29,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 60,
+        "loyalty": 82,
+        "aggression": 52,
+        "initialMood": 18
+      },
+      "contract": {
+        "salary": 15000000,
+        "duration": 3,
+        "role": "Pilot1",
+        "exitClause": 50000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 3,
+        "podiums": 18,
+        "poles": 5,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "hamilton_lewis",
+      "fullName": "Lewis Hamilton",
+      "shortName": "HAM",
+      "number": 44,
+      "nationality": "GB",
+      "flag": "🇬🇧",
+      "teamId": "ferrari",
+      "age": 40,
+      "stars": 5,
+      "spriteId": "pilot_hamilton",
+      "stats": {
+        "speed": 89,
+        "consistency": 90,
+        "rain": 96,
+        "starts": 86,
+        "defense": 88,
+        "attack": 88,
+        "tireManagement": 94,
+        "fuelManagement": 91,
+        "concentration": 90,
+        "adaptability": 93
+      },
+      "hidden": {
+        "potential": 92,
+        "growthCurve": 0.0,
+        "peakAge": 31,
+        "declineRate": 0.8
+      },
+      "personality": {
+        "ego": 70,
+        "loyalty": 72,
+        "aggression": 48,
+        "initialMood": 20
+      },
+      "contract": {
+        "salary": 40000000,
+        "duration": 2,
+        "role": "Pilot1",
+        "exitClause": 60000000
+      },
+      "career": {
+        "championships": 7,
+        "wins": 104,
+        "podiums": 201,
+        "poles": 104,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "antonelli_kimi",
+      "fullName": "Andrea Kimi Antonelli",
+      "shortName": "ANT",
+      "number": 12,
+      "nationality": "IT",
+      "flag": "🇮🇹",
+      "teamId": "mercedes",
+      "age": 18,
+      "stars": 3,
+      "spriteId": "pilot_antonelli",
+      "stats": {
+        "speed": 78,
+        "consistency": 66,
+        "rain": 72,
+        "starts": 70,
+        "defense": 63,
+        "attack": 77,
+        "tireManagement": 67,
+        "fuelManagement": 65,
+        "concentration": 71,
+        "adaptability": 74
+      },
+      "hidden": {
+        "potential": 94,
+        "growthCurve": 1.8,
+        "peakAge": 27,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 30,
+        "loyalty": 88,
+        "aggression": 45,
+        "initialMood": 25
+      },
+      "contract": {
+        "salary": 2000000,
+        "duration": 3,
+        "role": "Pilot2",
+        "exitClause": 15000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 0,
+        "poles": 0,
+        "bestFinish": 0
+      }
+    },
+    {
+      "id": "alonso_fernando",
+      "fullName": "Fernando Alonso",
+      "shortName": "ALO",
+      "number": 14,
+      "nationality": "ES",
+      "flag": "🇪🇸",
+      "teamId": "aston_martin",
+      "age": 43,
+      "stars": 4,
+      "spriteId": "pilot_alonso",
+      "stats": {
+        "speed": 82,
+        "consistency": 89,
+        "rain": 88,
+        "starts": 84,
+        "defense": 90,
+        "attack": 83,
+        "tireManagement": 92,
+        "fuelManagement": 90,
+        "concentration": 88,
+        "adaptability": 91
+      },
+      "hidden": {
+        "potential": 82,
+        "growthCurve": 0.0,
+        "peakAge": 28,
+        "declineRate": 1.2
+      },
+      "personality": {
+        "ego": 80,
+        "loyalty": 55,
+        "aggression": 68,
+        "initialMood": 5
+      },
+      "contract": {
+        "salary": 18000000,
+        "duration": 1,
+        "role": "Pilot1",
+        "exitClause": 25000000
+      },
+      "career": {
+        "championships": 2,
+        "wins": 32,
+        "podiums": 106,
+        "poles": 22,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "stroll_lance",
+      "fullName": "Lance Stroll",
+      "shortName": "STR",
+      "number": 18,
+      "nationality": "CA",
+      "flag": "🇨🇦",
+      "teamId": "aston_martin",
+      "age": 26,
+      "stars": 3,
+      "spriteId": "pilot_stroll",
+      "stats": {
+        "speed": 75,
+        "consistency": 72,
+        "rain": 78,
+        "starts": 73,
+        "defense": 74,
+        "attack": 73,
+        "tireManagement": 75,
+        "fuelManagement": 72,
+        "concentration": 69,
+        "adaptability": 71
+      },
+      "hidden": {
+        "potential": 76,
+        "growthCurve": 0.1,
+        "peakAge": 28,
+        "declineRate": 0.5
+      },
+      "personality": {
+        "ego": 42,
+        "loyalty": 90,
+        "aggression": 40,
+        "initialMood": 10
+      },
+      "contract": {
+        "salary": 10000000,
+        "duration": 5,
+        "role": "Pilot2",
+        "exitClause": 0
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 3,
+        "poles": 1,
+        "bestFinish": 3
+      }
+    },
+    {
+      "id": "gasly_pierre",
+      "fullName": "Pierre Gasly",
+      "shortName": "GAS",
+      "number": 10,
+      "nationality": "FR",
+      "flag": "🇫🇷",
+      "teamId": "alpine",
+      "age": 29,
+      "stars": 4,
+      "spriteId": "pilot_gasly",
+      "stats": {
+        "speed": 85,
+        "consistency": 82,
+        "rain": 80,
+        "starts": 84,
+        "defense": 79,
+        "attack": 84,
+        "tireManagement": 82,
+        "fuelManagement": 80,
+        "concentration": 83,
+        "adaptability": 81
+      },
+      "hidden": {
+        "potential": 87,
+        "growthCurve": 0.0,
+        "peakAge": 28,
+        "declineRate": 0.4
+      },
+      "personality": {
+        "ego": 55,
+        "loyalty": 70,
+        "aggression": 55,
+        "initialMood": 10
+      },
+      "contract": {
+        "salary": 8000000,
+        "duration": 2,
+        "role": "Pilot1",
+        "exitClause": 20000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 1,
+        "podiums": 5,
+        "poles": 0,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "doohan_jack",
+      "fullName": "Jack Doohan",
+      "shortName": "DOO",
+      "number": 7,
+      "nationality": "AU",
+      "flag": "🇦🇺",
+      "teamId": "alpine",
+      "age": 22,
+      "stars": 3,
+      "spriteId": "pilot_doohan",
+      "stats": {
+        "speed": 72,
+        "consistency": 68,
+        "rain": 65,
+        "starts": 70,
+        "defense": 66,
+        "attack": 73,
+        "tireManagement": 67,
+        "fuelManagement": 66,
+        "concentration": 70,
+        "adaptability": 68
+      },
+      "hidden": {
+        "potential": 82,
+        "growthCurve": 1.5,
+        "peakAge": 27,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 28,
+        "loyalty": 75,
+        "aggression": 42,
+        "initialMood": 18
+      },
+      "contract": {
+        "salary": 1500000,
+        "duration": 2,
+        "role": "Pilot2",
+        "exitClause": 8000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 0,
+        "poles": 0,
+        "bestFinish": 0
+      }
+    },
+    {
+      "id": "ocon_esteban",
+      "fullName": "Esteban Ocon",
+      "shortName": "OCO",
+      "number": 31,
+      "nationality": "FR",
+      "flag": "🇫🇷",
+      "teamId": "haas",
+      "age": 28,
+      "stars": 4,
+      "spriteId": "pilot_ocon",
+      "stats": {
+        "speed": 82,
+        "consistency": 80,
+        "rain": 78,
+        "starts": 79,
+        "defense": 83,
+        "attack": 79,
+        "tireManagement": 81,
+        "fuelManagement": 79,
+        "concentration": 80,
+        "adaptability": 79
+      },
+      "hidden": {
+        "potential": 84,
+        "growthCurve": 0.0,
+        "peakAge": 28,
+        "declineRate": 0.4
+      },
+      "personality": {
+        "ego": 58,
+        "loyalty": 60,
+        "aggression": 62,
+        "initialMood": 8
+      },
+      "contract": {
+        "salary": 6000000,
+        "duration": 2,
+        "role": "Pilot1",
+        "exitClause": 15000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 1,
+        "podiums": 4,
+        "poles": 0,
+        "bestFinish": 1
+      }
+    },
+    {
+      "id": "bearman_oliver",
+      "fullName": "Oliver Bearman",
+      "shortName": "BEA",
+      "number": 87,
+      "nationality": "GB",
+      "flag": "🇬🇧",
+      "teamId": "haas",
+      "age": 19,
+      "stars": 3,
+      "spriteId": "pilot_bearman",
+      "stats": {
+        "speed": 74,
+        "consistency": 70,
+        "rain": 68,
+        "starts": 72,
+        "defense": 66,
+        "attack": 75,
+        "tireManagement": 69,
+        "fuelManagement": 67,
+        "concentration": 73,
+        "adaptability": 72
+      },
+      "hidden": {
+        "potential": 88,
+        "growthCurve": 1.7,
+        "peakAge": 27,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 25,
+        "loyalty": 82,
+        "aggression": 48,
+        "initialMood": 22
+      },
+      "contract": {
+        "salary": 1500000,
+        "duration": 3,
+        "role": "Pilot2",
+        "exitClause": 10000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 0,
+        "poles": 0,
+        "bestFinish": 7
+      }
+    },
+    {
+      "id": "hulkenberg_nico",
+      "fullName": "Nico Hulkenberg",
+      "shortName": "HUL",
+      "number": 27,
+      "nationality": "DE",
+      "flag": "🇩🇪",
+      "teamId": "sauber",
+      "age": 37,
+      "stars": 3,
+      "spriteId": "pilot_hulkenberg",
+      "stats": {
+        "speed": 80,
+        "consistency": 84,
+        "rain": 80,
+        "starts": 78,
+        "defense": 81,
+        "attack": 78,
+        "tireManagement": 83,
+        "fuelManagement": 82,
+        "concentration": 82,
+        "adaptability": 81
+      },
+      "hidden": {
+        "potential": 82,
+        "growthCurve": 0.0,
+        "peakAge": 30,
+        "declineRate": 0.7
+      },
+      "personality": {
+        "ego": 45,
+        "loyalty": 65,
+        "aggression": 45,
+        "initialMood": 10
+      },
+      "contract": {
+        "salary": 5000000,
+        "duration": 2,
+        "role": "Pilot1",
+        "exitClause": 10000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 0,
+        "poles": 1,
+        "bestFinish": 4
+      }
+    },
+    {
+      "id": "bortoleto_gabriel",
+      "fullName": "Gabriel Bortoleto",
+      "shortName": "BOR",
+      "number": 5,
+      "nationality": "BR",
+      "flag": "🇧🇷",
+      "teamId": "sauber",
+      "age": 20,
+      "stars": 3,
+      "spriteId": "pilot_bortoleto",
+      "stats": {
+        "speed": 74,
+        "consistency": 69,
+        "rain": 68,
+        "starts": 72,
+        "defense": 65,
+        "attack": 74,
+        "tireManagement": 68,
+        "fuelManagement": 66,
+        "concentration": 72,
+        "adaptability": 70
+      },
+      "hidden": {
+        "potential": 89,
+        "growthCurve": 1.8,
+        "peakAge": 27,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 30,
+        "loyalty": 78,
+        "aggression": 45,
+        "initialMood": 22
+      },
+      "contract": {
+        "salary": 1200000,
+        "duration": 3,
+        "role": "Pilot2",
+        "exitClause": 8000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 0,
+        "poles": 0,
+        "bestFinish": 0
+      }
+    },
+    {
+      "id": "tsunoda_yuki",
+      "fullName": "Yuki Tsunoda",
+      "shortName": "TSU",
+      "number": 22,
+      "nationality": "JP",
+      "flag": "🇯🇵",
+      "teamId": "racing_bulls",
+      "age": 24,
+      "stars": 4,
+      "spriteId": "pilot_tsunoda",
+      "stats": {
+        "speed": 86,
+        "consistency": 77,
+        "rain": 76,
+        "starts": 83,
+        "defense": 75,
+        "attack": 85,
+        "tireManagement": 76,
+        "fuelManagement": 75,
+        "concentration": 74,
+        "adaptability": 78
+      },
+      "hidden": {
+        "potential": 88,
+        "growthCurve": 0.6,
+        "peakAge": 28,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 52,
+        "loyalty": 75,
+        "aggression": 70,
+        "initialMood": 12
+      },
+      "contract": {
+        "salary": 3000000,
+        "duration": 2,
+        "role": "Pilot1",
+        "exitClause": 12000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 1,
+        "poles": 0,
+        "bestFinish": 3
+      }
+    },
+    {
+      "id": "lawson_liam",
+      "fullName": "Liam Lawson",
+      "shortName": "LAW",
+      "number": 30,
+      "nationality": "NZ",
+      "flag": "🇳🇿",
+      "teamId": "red_bull",
+      "age": 22,
+      "stars": 3,
+      "spriteId": "pilot_lawson",
+      "stats": {
+        "speed": 79,
+        "consistency": 74,
+        "rain": 75,
+        "starts": 76,
+        "defense": 72,
+        "attack": 80,
+        "tireManagement": 73,
+        "fuelManagement": 72,
+        "concentration": 76,
+        "adaptability": 75
+      },
+      "hidden": {
+        "potential": 87,
+        "growthCurve": 1.4,
+        "peakAge": 27,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 38,
+        "loyalty": 80,
+        "aggression": 55,
+        "initialMood": 18
+      },
+      "contract": {
+        "salary": 2000000,
+        "duration": 2,
+        "role": "Pilot2",
+        "exitClause": 15000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 0,
+        "poles": 0,
+        "bestFinish": 9
+      }
+    },
+    {
+      "id": "albon_alex",
+      "fullName": "Alexander Albon",
+      "shortName": "ALB",
+      "number": 23,
+      "nationality": "TH",
+      "flag": "🇹🇭",
+      "teamId": "williams",
+      "age": 28,
+      "stars": 4,
+      "spriteId": "pilot_albon",
+      "stats": {
+        "speed": 83,
+        "consistency": 82,
+        "rain": 80,
+        "starts": 80,
+        "defense": 81,
+        "attack": 83,
+        "tireManagement": 84,
+        "fuelManagement": 82,
+        "concentration": 83,
+        "adaptability": 84
+      },
+      "hidden": {
+        "potential": 87,
+        "growthCurve": 0.1,
+        "peakAge": 28,
+        "declineRate": 0.4
+      },
+      "personality": {
+        "ego": 35,
+        "loyalty": 78,
+        "aggression": 42,
+        "initialMood": 15
+      },
+      "contract": {
+        "salary": 5000000,
+        "duration": 2,
+        "role": "Pilot2",
+        "exitClause": 15000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 2,
+        "poles": 0,
+        "bestFinish": 3
+      }
+    },
+    {
+      "id": "colapinto_franco",
+      "fullName": "Franco Colapinto",
+      "shortName": "COL",
+      "number": 43,
+      "nationality": "AR",
+      "flag": "🇦🇷",
+      "teamId": "racing_bulls",
+      "age": 21,
+      "stars": 3,
+      "spriteId": "pilot_colapinto",
+      "stats": {
+        "speed": 74,
+        "consistency": 69,
+        "rain": 67,
+        "starts": 73,
+        "defense": 67,
+        "attack": 76,
+        "tireManagement": 68,
+        "fuelManagement": 66,
+        "concentration": 70,
+        "adaptability": 72
+      },
+      "hidden": {
+        "potential": 83,
+        "growthCurve": 1.5,
+        "peakAge": 27,
+        "declineRate": 0.3
+      },
+      "personality": {
+        "ego": 32,
+        "loyalty": 72,
+        "aggression": 55,
+        "initialMood": 20
+      },
+      "contract": {
+        "salary": 1000000,
+        "duration": 2,
+        "role": "Pilot2",
+        "exitClause": 5000000
+      },
+      "career": {
+        "championships": 0,
+        "wins": 0,
+        "podiums": 0,
+        "poles": 0,
+        "bestFinish": 8
+      }
+    }
+  ]
+}

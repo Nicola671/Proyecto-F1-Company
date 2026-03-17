@@ -1,0 +1,73 @@
+{
+  "staff": [
+    { "id": "st_td_01", "name": "Hans Müller", "role": "TechnicalDirector", "level": 5, "salary": 2500000, "nationality": "DE", "speciality": "Chassis", "personality": "Perfectionist", "bonus": "Reduction in chassis research time by 15%", "age": 52 },
+    { "id": "st_td_02", "name": "Elena Rossi", "role": "TechnicalDirector", "level": 4, "salary": 1800000, "nationality": "IT", "speciality": "Aero", "personality": "Innovative", "bonus": "Aero upgrades success +10%", "age": 45 },
+    { "id": "st_td_03", "name": "James Vowles", "role": "TechnicalDirector", "level": 5, "salary": 3000000, "nationality": "GB", "speciality": "Strategy", "personality": "Analytical", "bonus": "Fuel consumption estimates -5%", "age": 43 },
+    { "id": "st_td_04", "name": "Pierre Dupont", "role": "TechnicalDirector", "level": 3, "salary": 1200000, "nationality": "FR", "speciality": "Reliability", "personality": "Cautious", "bonus": "Engine failure risk -8%", "age": 58 },
+    { "id": "st_td_05", "name": "Yuki Tanaka", "role": "TechnicalDirector", "level": 4, "salary": 1950000, "nationality": "JP", "speciality": "Engine", "personality": "Workaholic", "bonus": "Engine research cost -12%", "age": 49 },
+    { "id": "st_td_06", "name": "Carlos Sainz Sr", "role": "TechnicalDirector", "level": 5, "salary": 2800000, "nationality": "ES", "speciality": "Chassis", "personality": "Leader", "bonus": "Team morale +10%", "age": 61 },
+    
+    { "id": "st_aero_01", "name": "Steve Wing", "role": "AeroChief", "level": 5, "salary": 1500000, "nationality": "GB", "speciality": "Wind Tunnel", "personality": "Genius", "bonus": "Max Aero stats +5%", "age": 39 },
+    { "id": "st_aero_02", "name": "Lars Berg", "role": "AeroChief", "level": 4, "salary": 1100000, "nationality": "SE", "speciality": "CFD", "personality": "Quiet", "bonus": "Aero research cost -10%", "age": 42 },
+    { "id": "st_aero_03", "name": "Ana Silva", "role": "AeroChief", "level": 3, "salary": 850000, "nationality": "BR", "speciality": "Cooling", "personality": "Energetic", "bonus": "Reliability from Aero +5%", "age": 35 },
+    { "id": "st_aero_04", "name": "Frank Stein", "role": "AeroChief", "level": 2, "salary": 500000, "nationality": "DE", "speciality": "Floor", "personality": "Basic", "bonus": "None", "age": 29 },
+    { "id": "st_aero_05", "name": "Mikhail Volkov", "role": "AeroChief", "level": 5, "salary": 1650000, "nationality": "RU", "speciality": "Turbulence", "personality": "Aggressive", "bonus": "Dirty Air penalty -15%", "age": 51 },
+    { "id": "st_aero_06", "name": "Chloe Lee", "role": "AeroChief", "level": 4, "salary": 1250000, "nationality": "KR", "speciality": "DRS", "personality": "Methodical", "bonus": "Top Speed bonus +3%", "age": 37 },
+
+    { "id": "st_eng_01", "name": "Dieter Schulz", "role": "EngineChief", "level": 5, "salary": 1700000, "nationality": "DE", "speciality": "Combustion", "personality": "Strict", "bonus": "Engine HP +5%", "age": 55 },
+    { "id": "st_eng_02", "name": "Luigi Ferrari", "role": "EngineChief", "level": 5, "salary": 2200000, "nationality": "IT", "speciality": "Turbo", "personality": "Passion", "bonus": "Max acceleration +10%", "age": 48 },
+    { "id": "st_eng_03", "name": "Sam Power", "role": "EngineChief", "level": 3, "salary": 900000, "nationality": "US", "speciality": "ERS", "personality": "Technical", "bonus": "Battery life +5%", "age": 40 },
+    { "id": "st_eng_04", "name": "Nigel Torque", "role": "EngineChief", "level": 4, "salary": 1300000, "nationality": "GB", "speciality": "MGU-K", "personality": "Engineer", "bonus": "Braking regen +8%", "age": 44 },
+    { "id": "st_eng_05", "name": "Jean Moter", "role": "EngineChief", "level": 2, "salary": 600000, "nationality": "FR", "speciality": "Cooling", "personality": "Calm", "bonus": "Engine temp -5%", "age": 32 },
+    { "id": "st_eng_06", "name": "Arun Kumar", "role": "EngineChief", "level": 4, "salary": 1400000, "nationality": "IN", "speciality": "Fuel Mix", "personality": "Efficient", "bonus": "Fuel life +10%", "age": 41 },
+
+    { "id": "st_ree_01", "name": "Bono", "role": "RaceEngineer", "level": 5, "salary": 1000000, "nationality": "GB", "speciality": "Radio", "personality": "Calm", "bonus": "Pilot stress -20%", "age": 46 },
+    { "id": "st_ree_02", "name": "Xavi", "role": "RaceEngineer", "level": 3, "salary": 500000, "nationality": "ES", "speciality": "Confusion", "personality": "Erratic", "bonus": "Radio memes +100%", "age": 38 },
+    { "id": "st_ree_03", "name": "Gianpiero", "role": "RaceEngineer", "level": 5, "salary": 1100000, "nationality": "IT", "speciality": "Authority", "personality": "Direct", "bonus": "Pilot compliance +20%", "age": 44 },
+    { "id": "st_ree_04", "name": "Tom Stallard", "role": "RaceEngineer", "level": 4, "salary": 750000, "nationality": "GB", "speciality": "Motivation", "personality": "Friendly", "bonus": "Pilot Mood +10%", "age": 41 },
+    { "id": "st_ree_05", "name": "Riccardo", "role": "RaceEngineer", "level": 4, "salary": 800000, "nationality": "IT", "speciality": "Tyres", "personality": "Patient", "bonus": "Tire info accuracy +15%", "age": 43 },
+    { "id": "st_ree_06", "name": "Sato Hiro", "role": "RaceEngineer", "level": 3, "salary": 550000, "nationality": "JP", "speciality": "Data", "personality": "Humble", "bonus": "Telemetry delay -20%", "age": 35 },
+
+    { "id": "st_ana_01", "name": "Math Girl", "role": "DataAnalyst", "level": 5, "salary": 800000, "nationality": "CH", "speciality": "Sim", "personality": "Quiet", "bonus": "Prediction accuracy +20%", "age": 28 },
+    { "id": "st_ana_02", "name": "Mark Stats", "role": "DataAnalyst", "level": 4, "salary": 650000, "nationality": "CA", "speciality": "History", "personality": "Nerdy", "bonus": "Historic records unlocked", "age": 31 },
+    { "id": "st_ana_03", "name": "Sarah Code", "role": "DataAnalyst", "level": 3, "salary": 450000, "nationality": "AU", "speciality": "Cloud", "personality": "Fast", "bonus": "Update speed +10%", "age": 26 },
+    { "id": "st_ana_04", "name": "Linus Matrix", "role": "DataAnalyst", "level": 5, "salary": 900000, "nationality": "FI", "speciality": "AI", "personality": "Robotic", "bonus": "Strategic advantage +15%", "age": 34 },
+    { "id": "st_ana_05", "name": "Chen Wei", "role": "DataAnalyst", "level": 4, "salary": 620000, "nationality": "CN", "speciality": "Graphs", "personality": "Detail-oriented", "bonus": "UI info +10%", "age": 29 },
+    { "id": "st_ana_06", "name": "Olga Petrova", "role": "DataAnalyst", "level": 2, "salary": 300000, "nationality": "UA", "speciality": "Excel", "personality": "Tired", "bonus": "None", "age": 24 },
+
+    { "id": "st_med_01", "name": "Dr. Feelgood", "role": "Medic", "level": 5, "salary": 600000, "nationality": "BR", "speciality": "Physio", "personality": "Chill", "bonus": "Recovery speed +30%", "age": 45 },
+    { "id": "st_med_02", "name": "Dr. Sharp", "role": "Medic", "level": 4, "salary": 450000, "nationality": "US", "speciality": "Surgery", "personality": "Elite", "bonus": "Injury duration -25%", "age": 52 },
+    { "id": "st_med_03", "name": "Dr. Muller", "role": "Medic", "level": 3, "salary": 320000, "nationality": "AT", "speciality": "Mental", "personality": "Gentle", "bonus": "Mood recovery +15%", "age": 41 },
+    { "id": "st_med_04", "name": "Nurse Joy", "role": "Medic", "level": 5, "salary": 550000, "nationality": "JP", "speciality": "Vitamin", "personality": "Happy", "bonus": "Fatigue reduction +20%", "age": 33 },
+    { "id": "st_med_05", "name": "Dr. House", "role": "Medic", "level": 5, "salary": 750000, "nationality": "US", "speciality": "Diagnosis", "personality": "Rude", "bonus": "Injury check accuracy 100%", "age": 55 },
+    { "id": "st_med_06", "name": "Medic Minor", "role": "Medic", "level": 2, "salary": 200000, "nationality": "MX", "speciality": "First Aid", "personality": "Scared", "bonus": "None", "age": 27 },
+
+    { "id": "st_com_01", "name": "Press Pro", "role": "CommsDirector", "level": 5, "salary": 700000, "nationality": "FR", "speciality": "Spin", "personality": "Slick", "bonus": "Press relation +20%", "age": 38 },
+    { "id": "st_com_02", "name": "Media Mike", "role": "CommsDirector", "level": 4, "salary": 500000, "nationality": "IE", "speciality": "Viral", "personality": "Loud", "bonus": "Sponsor prestige +10%", "age": 32 },
+    { "id": "st_com_03", "name": "Social Sara", "role": "CommsDirector", "level": 3, "salary": 350000, "nationality": "NZ", "speciality": "TikTok", "personality": "Young", "bonus": "Fanbase growth +15%", "age": 25 },
+    { "id": "st_com_04", "name": "Quiet Quinn", "role": "CommsDirector", "level": 4, "salary": 520000, "nationality": "PL", "speciality": "Crisis", "personality": "Stolid", "bonus": "Rumor suppression 50%", "age": 44 },
+    { "id": "st_com_05", "name": "Agent Smith", "role": "CommsDirector", "level": 5, "salary": 850000, "nationality": "GB", "speciality": "Lobby", "personality": "Shadowy", "bonus": "FIA attention -30%", "age": 50 },
+    { "id": "st_com_06", "name": "Speaker Sue", "role": "CommsDirector", "level": 2, "salary": 250000, "nationality": "BE", "speciality": "Vlog", "personality": "Naive", "bonus": "None", "age": 23 },
+
+    { "id": "st_aca_01", "name": "Scout Master", "role": "AcademyDirector", "level": 5, "salary": 900000, "nationality": "NL", "speciality": "Regen", "personality": "Visionary", "bonus": "Regen potential +10%", "age": 47 },
+    { "id": "st_aca_02", "name": "Helmut R.", "role": "AcademyDirector", "level": 5, "salary": 1200000, "nationality": "AT", "speciality": "Killer", "personality": "Ruthless", "bonus": "Junior growth +25%", "age": 80 },
+    { "id": "st_aca_03", "name": "Teach Tony", "role": "AcademyDirector", "level": 3, "salary": 400000, "nationality": "US", "speciality": "Driving", "personality": "Kind", "bonus": "Junior consistency +15%", "age": 39 },
+    { "id": "st_aca_04", "name": "Coach Kim", "role": "AcademyDirector", "level": 4, "salary": 600000, "nationality": "KR", "speciality": "Karting", "personality": "Focus", "bonus": "Recruit cost -20%", "age": 42 },
+    { "id": "st_aca_05", "name": "Gunter S.", "role": "AcademyDirector", "level": 4, "salary": 550000, "nationality": "IT", "speciality": "Talk", "personality": "Angry", "bonus": "Academy events +50%", "age": 52 },
+    { "id": "st_aca_06", "name": "Old Racer", "role": "AcademyDirector", "level": 2, "salary": 250000, "nationality": "FR", "speciality": "Mentor", "personality": "Slow", "bonus": "None", "age": 65 },
+
+    { "id": "st_fin_01", "name": "Banker Bob", "role": "FinanceDirector", "level": 5, "salary": 1500000, "nationality": "CH", "speciality": "Cap", "personality": "Greedy", "bonus": "Salary costs -15%", "age": 58 },
+    { "id": "st_fin_02", "name": "Audit Alice", "role": "FinanceDirector", "level": 4, "salary": 1100000, "nationality": "SG", "speciality": "Taxes", "personality": "Exact", "bonus": "Annual prize +10%", "age": 44 },
+    { "id": "st_fin_03", "name": "Safe Sam", "role": "FinanceDirector", "level": 3, "salary": 750000, "nationality": "CA", "speciality": "Budget", "personality": "Boring", "bonus": "Emergency funds +$5M", "age": 51 },
+    { "id": "st_fin_04", "name": "Crypto Chris", "role": "FinanceDirector", "level": 4, "salary": 1200000, "nationality": "AE", "speciality": "Sponsors", "personality": "Risky", "bonus": "Sponsor payout +15%", "age": 30 },
+    { "id": "st_fin_05", "name": "Old Money", "role": "FinanceDirector", "level": 5, "salary": 1800000, "nationality": "GB", "speciality": "Assets", "personality": "Posh", "bonus": "Interest +5%", "age": 63 },
+    { "id": "st_fin_06", "name": "Junior Accountant", "role": "FinanceDirector", "level": 2, "salary": 300000, "nationality": "DE", "speciality": "Ledger", "personality": "Nervous", "bonus": "None", "age": 24 },
+
+    { "id": "st_pit_01", "name": "Jack Fast", "role": "PitCrewChief", "level": 5, "salary": 800000, "nationality": "GB", "speciality": "Airguns", "personality": "Quick", "bonus": "Pit stop time -0.3s", "age": 42 },
+    { "id": "st_pit_02", "name": "Guido", "role": "PitCrewChief", "level": 5, "salary": 950000, "nationality": "IT", "speciality": "Tires", "personality": "Strong", "bonus": "Mistake chance -50%", "age": 10 },
+    { "id": "st_pit_03", "name": "Pit Paul", "role": "PitCrewChief", "level": 3, "salary": 450000, "nationality": "US", "speciality": "Jack", "personality": "Calm", "bonus": "Safe release +20%", "age": 37 },
+    { "id": "st_pit_04", "name": "Lollipop Larry", "role": "PitCrewChief", "level": 4, "salary": 600000, "nationality": "NL", "speciality": "Focus", "personality": "Old", "bonus": "Double stack bonus +10%", "age": 55 },
+    { "id": "st_pit_05", "name": "Heavy Hank", "role": "PitCrewChief", "level": 4, "salary": 580000, "nationality": "AU", "speciality": "Fueling", "personality": "Jolly", "bonus": "Refuel time (Classic) -1.0s", "age": 44 },
+    { "id": "st_pit_06", "name": "Panic Pete", "role": "PitCrewChief", "level": 2, "salary": 250000, "nationality": "ZA", "speciality": "Safety", "personality": "Shaky", "bonus": "None", "age": 33 }
+  ]
+}
