@@ -49,6 +49,16 @@ namespace F1CareerManager.Core
         public event Action<string> OnAchievementUnlocked; // achievementId
         public event EventHandler<NewsGeneratedArgs> OnNewsGenerated;
 
+        // ── Eventos de Pilotos ────────────────────────────────
+        public event EventHandler<PilotMoodChangedArgs> OnPilotMoodChanged;
+        public event EventHandler<InjuryOccurredArgs> OnInjuryOccurred;
+
+        // ── Eventos de FIA ────────────────────────────────────
+        public event EventHandler<FIAInvestigationArgs> OnFIAInvestigation;
+
+        // ── Eventos de Mercado de Rivales ─────────────────────
+        public event EventHandler<RivalTransferArgs> OnRivalTransfer;
+
         // ══════════════════════════════════════════════════════
         // CLASES DE ARGUMENTOS
         // ══════════════════════════════════════════════════════
@@ -106,32 +116,102 @@ namespace F1CareerManager.Core
         {
             public int FinalPosition;
             public bool ObjectiveMet;
+            public List<SeasonPilotResult> PilotResults;
+        }
+
+        public class SeasonPilotResult
+        {
+            public string PilotId;
+            public int FinalPosition;
+            public int Points;
         }
 
         public class ContractSignedArgs : EventArgs
         {
             public string PilotId;
+            public string PilotName;
             public string TeamId;
+            public string TeamName;
             public bool IsSuccess;
+            public bool IsRenewal;
+            public int Years;
         }
 
         public class StaffChangedArgs : EventArgs
         {
             public string Role;
             public string NewStaffName;
+            public string StaffName;   // alias para compatibilidad con UIManager
+            public string TeamId;
+            public string ChangeType;  // "Hired", "Stolen", "Retired"
         }
 
         public class ComponentInstalledArgs : EventArgs
         {
             public string ComponentId;
+            public string ComponentName;
             public float PerformanceGain;
+            public float ActualPerformance;
+            public string InstallResult;  // "Normal", "BetterThanExpected", "Failed"
         }
 
         public class BudgetChangedArgs : EventArgs
         {
             public long NewBalance;
+            public float NewBudget;        // en millones (float) para UI
             public long ChangeAmount;
             public string Reason;
+            public string TeamId;
+            public string FinancialStatus; // "OK", "Struggling", "Crisis"
+        }
+
+        // ── Args de Pilotos ───────────────────────────────────
+
+        public class PilotMoodChangedArgs : EventArgs
+        {
+            public string PilotId;
+            public string PilotName;
+            public string TeamId;
+            public string OldMood;
+            public string NewMood;
+            public string Reason;
+        }
+
+        public class InjuryOccurredArgs : EventArgs
+        {
+            public string PilotId;
+            public string PilotName;
+            public string TeamId;
+            public string Description;
+            public int RacesOut;
+            public bool IsSerious;
+        }
+
+        // ── Args de FIA ───────────────────────────────────────
+
+        public class FIAInvestigationArgs : EventArgs
+        {
+            public string TeamId;
+            public string ComponentId;
+            public string InvestigationReason;
+            public bool WasDetected;
+            public string SanctionType;   // "Pending", "Warning", "Fine", etc.
+            public float FineAmount;
+            public int PointsPenalty;
+            public string Description;
+        }
+
+        // ── Args de Mercado ───────────────────────────────────
+
+        public class RivalTransferArgs : EventArgs
+        {
+            public string PilotId;
+            public string PilotName;
+            public string FromTeamId;
+            public string FromTeamName;
+            public string ToTeamId;
+            public string ToTeamName;
+            public float Salary;
         }
 
         // ══════════════════════════════════════════════════════
@@ -143,18 +223,62 @@ namespace F1CareerManager.Core
         public void FireSprintFinished(SprintFinishedArgs args) => OnSprintFinished?.Invoke(this, args);
         public void FireSeasonEnd(SeasonEndArgs args) => OnSeasonEnd?.Invoke(this, args);
         public void FireTransferCompleted(ContractSignedArgs args) => OnTransferCompleted?.Invoke(this, args);
-        public void FireBudgetChanged(long balance, long change, string reason) => 
-            OnBudgetChanged?.Invoke(this, new BudgetChangedArgs { NewBalance = balance, ChangeAmount = change, Reason = reason });
-        
-        public void FireQualifyingFinished(QualifyingFinishedArgs args) => OnQualifyingFinished?.Invoke(); // Mantengo el Action por compatibilidad o cambio a EventHandler si prefiero
-        public void FireComponentInstalled(string compId, float gain) => OnComponentInstalled?.Invoke(this, new ComponentInstalledArgs { ComponentId = compId, PerformanceGain = gain });
-        public void FireStaffChanged(string role, string name) => OnStaffChanged?.Invoke(this, new StaffChangedArgs { Role = role, NewStaffName = name });
+        public void FireContractSigned(ContractSignedArgs args) => OnContractSigned?.Invoke(this, args);
+
+        public void FireBudgetChanged(long balance, long change, string reason,
+            string teamId = "", string status = "OK") =>
+            OnBudgetChanged?.Invoke(this, new BudgetChangedArgs
+            {
+                NewBalance = balance,
+                NewBudget = balance / 1_000_000f,
+                ChangeAmount = change,
+                Reason = reason,
+                TeamId = teamId,
+                FinancialStatus = status
+            });
+
+        public void FireQualifyingFinished(QualifyingFinishedArgs args) => OnQualifyingFinished?.Invoke();
+
+        public void FireComponentInstalled(string compId, float gain) =>
+            OnComponentInstalled?.Invoke(this, new ComponentInstalledArgs
+            {
+                ComponentId = compId,
+                ComponentName = compId,
+                PerformanceGain = gain,
+                ActualPerformance = gain,
+                InstallResult = "Normal"
+            });
+
+        public void FireComponentInstalled(ComponentInstalledArgs args) =>
+            OnComponentInstalled?.Invoke(this, args);
+
+        public void FireStaffChanged(string role, string name) =>
+            OnStaffChanged?.Invoke(this, new StaffChangedArgs
+            {
+                Role = role,
+                NewStaffName = name,
+                StaffName = name,
+                ChangeType = "Hired"
+            });
+
+        public void FireStaffChanged(StaffChangedArgs args) => OnStaffChanged?.Invoke(this, args);
         public void FireNewsGenerated(NewsGeneratedArgs args) => OnNewsGenerated?.Invoke(this, args);
-        
+
         public void FireAcademyPromoted(string pilotId) => OnAcademyPilotPromoted?.Invoke(pilotId);
         public void FireRivalryChanged(string p1, string p2) => OnRivalryChanged?.Invoke(p1, p2);
-        public void FireEngineChanged(string teamId, string supplierId) => OnEngineSupplierChanged?.Invoke(teamId, supplierId);
-        public void FireAchievementUnlocked(string achievementId) => OnAchievementUnlocked?.Invoke(achievementId);
+        public void FireEngineChanged(string teamId, string supplierId) =>
+            OnEngineSupplierChanged?.Invoke(teamId, supplierId);
+        public void FireAchievementUnlocked(string achievementId) =>
+            OnAchievementUnlocked?.Invoke(achievementId);
+
+        public void FirePilotMoodChanged(PilotMoodChangedArgs args) =>
+            OnPilotMoodChanged?.Invoke(this, args);
+        public void FireInjuryOccurred(InjuryOccurredArgs args) =>
+            OnInjuryOccurred?.Invoke(this, args);
+        public void FireFIAInvestigation(FIAInvestigationArgs args) =>
+            OnFIAInvestigation?.Invoke(this, args);
+        public void FireRivalTransfer(RivalTransferArgs args) =>
+            OnRivalTransfer?.Invoke(this, args);
 
         public void ClearAllListeners()
         {
@@ -174,6 +298,11 @@ namespace F1CareerManager.Core
             OnComponentRiskDetected = null;
             OnBudgetChanged = null;
             OnAchievementUnlocked = null;
+            OnNewsGenerated = null;
+            OnPilotMoodChanged = null;
+            OnInjuryOccurred = null;
+            OnFIAInvestigation = null;
+            OnRivalTransfer = null;
         }
     }
 }

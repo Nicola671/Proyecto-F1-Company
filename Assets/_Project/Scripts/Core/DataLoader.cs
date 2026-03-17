@@ -475,19 +475,6 @@ namespace F1CareerManager.Core
     }
 
     [Serializable]
-    public class SponsorData
-    {
-        public string id;
-        public string name;
-        public string logoColor;
-        public float annualPayment;
-        public int minimumPosition;
-        public float victoryBonus;
-        public int contractDuration;
-        public int minTeamReputation;
-    }
-
-    [Serializable]
     public class RandomEventData
     {
         public string id;
