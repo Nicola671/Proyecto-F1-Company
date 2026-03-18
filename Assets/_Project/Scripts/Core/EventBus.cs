@@ -59,6 +59,10 @@ namespace F1CareerManager.Core
         // ── Eventos de Mercado de Rivales ─────────────────────
         public event EventHandler<RivalTransferArgs> OnRivalTransfer;
 
+        // ── Eventos de Sistema / Estado ───────────────────────
+        public event EventHandler<GameStateChangedArgs> OnGameStateChanged;
+        public event EventHandler<RandomEventArgs> OnRandomEvent;
+
         // ══════════════════════════════════════════════════════
         // CLASES DE ARGUMENTOS
         // ══════════════════════════════════════════════════════
@@ -163,6 +167,22 @@ namespace F1CareerManager.Core
             public string Reason;
             public string TeamId;
             public string FinancialStatus; // "OK", "Struggling", "Crisis"
+        }
+
+        public class GameStateChangedArgs : EventArgs
+        {
+            public string PreviousState;
+            public string NewState;
+        }
+
+        public class RandomEventArgs : EventArgs
+        {
+            public string EventId;
+            public string Title;
+            public string Description;
+            public string EventType; // Positive, Negative, Neutral
+            public string AffectedTeamId;
+            public List<string> PlayerOptions;
         }
 
         // ── Args de Pilotos ───────────────────────────────────
@@ -280,6 +300,11 @@ namespace F1CareerManager.Core
         public void FireRivalTransfer(RivalTransferArgs args) =>
             OnRivalTransfer?.Invoke(this, args);
 
+        public void FireGameStateChanged(GameStateChangedArgs args) =>
+            OnGameStateChanged?.Invoke(this, args);
+        public void FireRandomEvent(RandomEventArgs args) =>
+            OnRandomEvent?.Invoke(this, args);
+
         public void ClearAllListeners()
         {
             OnRaceFinished = null;
@@ -303,6 +328,8 @@ namespace F1CareerManager.Core
             OnInjuryOccurred = null;
             OnFIAInvestigation = null;
             OnRivalTransfer = null;
+            OnGameStateChanged = null;
+            OnRandomEvent = null;
         }
     }
 }
