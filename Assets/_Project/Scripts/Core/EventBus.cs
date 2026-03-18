@@ -205,6 +205,8 @@ namespace F1CareerManager.Core
             public string Description;
             public int RacesOut;
             public bool IsSerious;
+            public string Severity;        // "Light", "Moderate", "Severe", etc
+            public bool AffectsPotential;  // Si daña su futuro permanentemente
         }
 
         // ── Args de FIA ───────────────────────────────────────

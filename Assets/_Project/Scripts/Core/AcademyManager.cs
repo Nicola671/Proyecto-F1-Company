@@ -76,7 +76,7 @@ namespace F1CareerManager.Academy
             };
 
             academyPilots.Add(junior);
-            Debug.Log($"[AcademyManager] {pilot.fullName} (Age: {pilot.age}) se une a la Academia.");
+            Debug.Log($"[AcademyManager] {pilot.firstName} {pilot.lastName} (Age: {pilot.age}) se une a la Academia.");
             return true;
         }
 
@@ -99,10 +99,11 @@ namespace F1CareerManager.Academy
             // Mejorar stats aleatoriamente basadas en potencial
             if (UnityEngine.Random.value < junior.pilotData.potential / 100f)
             {
-                junior.pilotData.stats.speed += (int)(UnityEngine.Random.Range(0, 2) * speedFactor);
-                junior.pilotData.stats.consistency += (int)(UnityEngine.Random.Range(0, 2) * speedFactor);
+                junior.pilotData.speed += (int)(UnityEngine.Random.Range(0, 2) * speedFactor);
+                junior.pilotData.consistency += (int)(UnityEngine.Random.Range(0, 2) * speedFactor);
                 // Limitar a stats máximos de junior
-                junior.pilotData.stats.speed = Mathf.Min(junior.pilotData.stats.speed, 75); 
+                junior.pilotData.speed = Mathf.Min(junior.pilotData.speed, 75); 
+                junior.pilotData.consistency = Mathf.Min(junior.pilotData.consistency, 75);
             }
         }
 
@@ -127,7 +128,7 @@ namespace F1CareerManager.Academy
                 if (junior.pilotData.age >= 18 && (junior.championshipPos <= 5 || junior.seasonsInAcademy >= 3))
                 {
                     junior.isReadyForF1 = true;
-                    Debug.Log($"[AcademyManager] 🎓 {junior.pilotData.fullName} está listo para dar el salto a F1.");
+                    Debug.Log($"[AcademyManager] 🎓 {junior.pilotData.firstName} {junior.pilotData.lastName} está listo para dar el salto a F1.");
                 }
             }
         }
@@ -140,7 +141,7 @@ namespace F1CareerManager.Academy
         {
             currentAcademyBudget = budget;
             // Afecta el developmentRate de todos los pilotos
-            float targetRate = (float)budget / (academyPilots.Count * baseDevelopmentCostPerPilot);
+            float targetRate = (float)budget / (Math.Max(1, academyPilots.Count) * baseDevelopmentCostPerPilot);
             foreach (var j in academyPilots) j.developmentRate = Mathf.Clamp(targetRate, 0.5f, 2.0f);
         }
 
@@ -156,7 +157,7 @@ namespace F1CareerManager.Academy
             if (junior != null && junior.isReadyForF1)
             {
                 // Aquí se llamaría a TransferManager para asignarlo a un asiento real
-                Debug.Log($"[AcademyManager] Promocionando a {junior.pilotData.fullName} al equipo {teamId}");
+                Debug.Log($"[AcademyManager] Promocionando a {junior.pilotData.firstName} {junior.pilotData.lastName} al equipo {teamId}");
                 academyPilots.Remove(junior);
             }
         }

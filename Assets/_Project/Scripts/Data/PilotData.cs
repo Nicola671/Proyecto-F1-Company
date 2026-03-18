@@ -22,6 +22,9 @@ namespace F1CareerManager.Data
         public string spriteId;            // ID para cargar el sprite
         public bool isRegen;               // false para reales, true para generados
 
+        // ── Propiedades calculadas ───────────────────────────
+        public string fullName => $"{firstName} {lastName}";
+
         // ── Estrellas y rating visible ───────────────────────
         public int stars;                  // 1-5 ⭐
         public int overallRating;          // 0-100 (promedio ponderado de stats)

@@ -6,6 +6,7 @@
 
 using System;
 using System.Collections.Generic;
+using F1CareerManager.Academy; // Para JuniorPilotInfo si es necesario, o lo movemos a Data
 
 namespace F1CareerManager.Data
 {
@@ -26,20 +27,64 @@ namespace F1CareerManager.Data
     [Serializable]
     public class SaveData
     {
+        // ── Información de Usuario & Sesión ─────────────────
         public string saveId;
         public string saveType;                // "AutoSave", "Manual", "Emergency"
         public int slotNumber;                 // 0=auto, 1-3=manual
+        public int saveVersion;                // Para migraciones
+        public string realDateSaved;           // Fecha real del guardado
+        public string playerName;
         public string teamId;
         public int currentSeason;
+        public int currentWeek;
+        public long budget;
+        public int weeksPlayed;                // Total de semanas en la carrera
+        
+        // ── Estado Global del Juego ──────────────────────────
         public int constructorPosition;
-        public string realDateSaved;           // Fecha real del guardado
         public string carSpriteId;
         public SeasonData currentSeasonData;
         public List<SeasonData> pastSeasons;
         public LegacyData legacy;
+        
+        // ── Colecciones de Datos ─────────────────────────────
         public List<PilotData> allPilots;
         public List<TeamData> allTeams;
         public List<StaffData> allStaff;
+
+        // ── Academia Junior ──────────────────────────────────
+        // Nota: AcademyManager.JuniorPilotInfo debe estar disponible o ser serializable aquí
+        public List<AcademyManager.JuniorPilotInfo> academyPilots;
+        public long academyBudget;
+
+        // ── Relaciones & Rivalidades ─────────────────────────
+        public List<RelationshipEntry> relationshipMatrix; // Los diccionarios no son serializables nativamente en Unity JSON sin librerías extra
+        
+        // ── Progreso & I+D ───────────────────────────────────
+        public List<string> unlockedAchievements;
+        public List<string> researchedComponentIds;
+        public List<string> installedComponentIds;
+
+        [Serializable]
+        public class RelationshipEntry
+        {
+            public string key; // "pilot1_pilot2"
+            public int value;
+        }
+
+        public SaveData()
+        {
+            pastSeasons = new List<SeasonData>();
+            allPilots = new List<PilotData>();
+            allTeams = new List<TeamData>();
+            allStaff = new List<StaffData>();
+            academyPilots = new List<AcademyManager.JuniorPilotInfo>();
+            relationshipMatrix = new List<RelationshipEntry>();
+            unlockedAchievements = new List<string>();
+            researchedComponentIds = new List<string>();
+            installedComponentIds = new List<string>();
+            legacy = new LegacyData();
+        }
     }
 
     [Serializable]
